@@ -1,0 +1,51 @@
+/*---------------- GENERAL -------------------*/
+
+body, html {
+    background-color: rgb(253, 251, 251);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/*---------------- INPUTS -------------------*/
+
+
+#input-text-container {
+    
+    width: 300px;
+    display: inline-block;
+    margin-left: 70px;
+}
+#meme-image-container {
+    background-color: white;
+    border: 1px solid black ; 
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+}
+#texto {
+    text-align: left;
+    margin-bottom: 10px;
+}
+#foto {
+    text-align: left;
+    margin-left: 5px;
+}
+
+/*---------------- IMAGE -------------------*/
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*---------------- TEXT -------------------*/
+
+#meme-text {
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+}

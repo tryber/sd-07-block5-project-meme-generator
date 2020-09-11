@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-------------- HEADER -------------->
+
+    <header>
+        <h1>
+            MEME GENERATOR
+        </h1>
+    </header>
+
+<!-------------- INPUTS DE TEXTO E DA IMAGEM -------------->
+
+    <form id="input-text-container">
+        <div id="texto">Texto:
+            <input type="text" id="text-input" maxlength="60">
+        </div>
+        <div id="foto">Foto:
+            <input type="file" name="meme-insert" id="meme-insert">
+        </div>
+
+    </form>
+    <br><br>
+
+<!-------------- CONTAINER DO TEXTO E DA IMAGEM -------------->
+
+    <div id="meme-image-container"class="meme-container">
+        <div id="meme-text"></div>
+        <img id="meme-image">
+    </div>
+
+    
+<!-------------- FOOTER -------------->
+
+    <footer>
+        <p>
+            &copy;Afonso
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
