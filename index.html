@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>WELCOME TO ARTHUR'S MEME GENERATOR!</h1>
+    </header>
+
+    <section class="section-input">
+      <label>Text:</label>
+      <input class="input" type="text" id="text-input" maxlength="60" />
+      <br /><br />
+      <label>Photo:</label>
+      <input type="file" accept="image/*" id="meme-insert" />
+    </section>
+
+    <section class="section-meme">
+      <div class="conteiner" id="meme-image-container">
+        <img id="meme-image" src="" />
+        <p id="meme-text"></p>
+      </div>
+    </section>
+
+    <section class="section-button">
+      <button class="button1" id="fire">Border FIRE</button>
+      <button class="button2" id="water">Border WATER</button>
+      <button class="button3" id="earth">Border EARTH</button>
+    </section>
+
+    <section class="section-defined-memes">
+      <h2>If you want, pick an existing meme:</h2>
+      <img src="imgs/meme1.png" id="meme-1" />
+      <img src="imgs/meme2.png" id="meme-2" />
+      <img src="imgs/meme3.png" id="meme-3" />
+      <img src="imgs/meme4.png" id="meme-4" />
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
