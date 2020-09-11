@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Meme Generator</title>
+  <link rel=stylesheet type="text/css" href="style.css">
+ </head>
+ <body class="body">
+     <h1> Dank-Memes.Inc </h1>
+<!-- Caixa de texto para legenda do meme -->
+
+    <input maxlength="60" type="text" id= "text-input" class="caixa-texto" placeholder="Digite legenda do meme">
+    <br><br>
+    
+
+<!-- Local para upload de imagem -->
+
+<input id="meme-insert" class="file-input" type="file" accept="image/*" onchange="loadFile(event)" name="name"/>
+<br><br>
+<div id ="meme-image-container" >
+   
+    <img id= "meme-image" class="image">
+    <p id="meme-text" class="meme-text"></p> 
+    
+</div>
+<br><br>    
+
+<!-- BOTOES -->
+<button id="fire">Borda 1 </button>
+<button id="water">Borda 2 </button>
+<button id="earth">Borda 3 </button>
+<br><br>
+
+<!-- Memes -->
+<div class="todososmemes">
+<div class="meme-container">
+<img src="imgs/meme1.png" class="meme1" id="meme-1">
+</div>
+<div class="meme-container">
+<img src="imgs/meme2.png" class="meme2" id="meme-2">
+</div>
+<div class="meme-container">
+<img src="imgs/meme3.png" class="meme3" id="meme-3">
+</div>
+<div class="meme-container">
+<img src="imgs/meme4.png" class="meme4" id="meme-4">
+</div>
+</div>
+
+<script src="script.js"></script>
+ </body>
+</html>
+
