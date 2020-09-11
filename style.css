@@ -1,0 +1,50 @@
+.container {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin-left: 32%;
+  position: relative;
+  width: 500px;
+}
+
+.meme-image {
+  height: 500px;
+  width: 500px;
+}
+
+.meme-text {
+  bottom: 15px;
+  color: white;
+  font-family: "DM Mono", monospace;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+
+footer {
+  font-family: "DM Mono", monospace;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.texts {
+  font-family: "Grandstander", cursive;
+  line-height: 24px;
+  text-align: center;
+}
+
+.text-image {
+  margin-top: 50px;
+}
+
+.title {
+  background-color: salmon;
+  border-radius: 50%;
+  font-family: "Grandstander", cursive;
+  margin: 10px 40px;
+  padding: 10px;
+  text-align: center;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=DM+Mono&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <header class="title">
+      <h1>Meme Generator</h1>
+    </header>
+    <section class="texts">
+      <div>
+          <form>Digite um texto para seu meme: <input type="text" id="text-input" maxlength="60"></form>
+          <p>Escolha sua imagem: <input type="file" accept="#" onchange="loadFile(event)" id="meme-insert"></p>
+      </div>
+    </section>
+    <section class="text-image">
+      <div class="container" id="meme-image-container">
+        <img class="meme-image" id="meme-image">
+        <div class="meme-text" id="meme-text"></div>
+      </div>
+    </section>
+
+    <footer>&copy;2020. Code by Vanessa Oliveira</footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
