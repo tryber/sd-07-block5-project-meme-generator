@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+  <title>Meme Generator</title>
+</head>
+<body>
+  <div>
+    <label for="text-input">Texto: </label>
+    <input type="text" id="text-input" maxlength="60">
+  </div>
+  <input type="file" name="meme-insert" id="meme-insert">
+  <div class="meme-image-container-class" id="meme-image-container">
+    <p class="meme-text-class" id="meme-text"></p>
+    <img class="meme-image-class" id="meme-image" src="https://lh3.googleusercontent.com/0dZdu3mhvsx-UM0et0RNJ6yl4LO_JGoki9oU3kEmiaRkwcaK9bXZ8oDg4TosUMWWId-d=w250-h250-rwa" alt="">
+  </div>
+  <div class="buttons-container">
+    <p>Escolha uma moldura diferente: </p>
+    <button class="button-fire" id="fire">FIRE</button>
+    <button class="button-water" id="water">WATER</button>
+    <button class="button-earth" id="earth">EARTH</button>
+  </div>
+  <div class="famous-memes">
+    <p>Memes prontos :</p>
+    <img class="famous-meme-img" id="meme-1" src="imgs/meme1.png" alt="meme famoso 1">
+    <img class="famous-meme-img" id="meme-2" src="imgs/meme2.png" alt="meme famoso 2">
+    <img class="famous-meme-img" id="meme-3" src="imgs/meme3.png" alt="meme famoso 3">
+    <img class="famous-meme-img" id="meme-4" src="imgs/meme4.png" alt="meme famoso 4">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

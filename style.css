@@ -1,0 +1,47 @@
+.meme-image-container-class {
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  margin: 30px;
+  width: 300px;
+}
+
+.meme-image-class {
+  height: 300px;
+  position: relative;
+  width: 300px;
+}
+
+.meme-text-class {
+  color: white;
+  font-size: 30px;
+  margin-top: 175px;
+  max-width: 300px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
+}
+
+.button-fire {
+  background-color: red;
+  border: 3px dashed gray;
+  color: white;
+}
+
+.button-water {
+  background-color: blue;
+  border: 3px double gray;
+  color: white;
+}
+
+.button-earth {
+  background-color: green;
+  border: 3px groove gray;
+  color: white;
+}
+
+.famous-meme-img {
+  border: 1px solid black;
+  width: 100px;
+}
