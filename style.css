@@ -1,0 +1,64 @@
+.button , .button1 , .button2 , .button3 {
+  color: white;
+  font-family: Impact, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  height: 100px;
+  width: 150px;
+}
+
+.button1 {
+  background-color: red;
+}
+
+.button2 {
+  background-color: blue;
+}
+
+.button3 {
+  background-color: green;
+}
+
+.buttonStyle , .sample-images {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 500px;
+}
+
+.img-sample {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.meme-image , img {
+  height: 500px;
+  width: 500px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin-top: 10px;
+  position: relative;
+  width: 500px;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  top: 250px;
+  width: 500px;
+}
+
+.text-input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 450px;
+}

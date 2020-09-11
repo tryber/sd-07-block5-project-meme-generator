@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>!!!!Your MEME in one SECOND!!!!</h1>
+  </header>
+
+  <section id="collect-data">
+    <div>
+      <span>Put here a good phrase to make your gif more funny:</span>
+      <input type="text" class='text-input' id="text-input" placeholder="type here" maxlength="60">
+    </div>
+    <div>
+      <span>Chose here your image to your gif: </span>
+      <input type="file" accept="image/*" name="insertimage" class='meme-insert' id="meme-insert">
+    </div>
+  </section>
+
+  <section id="show-data">
+    <div class='meme-image-container' id="meme-image-container">
+      <img class='meme-image' id="meme-image">
+      <div class='meme-text' id="meme-text"></div>
+    </div>
+  </section>
+
+  <section class='buttonStyle'>
+
+    <button class='button1' id='fire'>Border 1! WoW</button>
+    <button class='button2' id='water'>Border 2! lol</button>
+    <button class="button3" id='earth'>Border 3! S2 You</button>
+
+  </section>
+
+  <section class='sample-images'>
+
+      <img class="img-sample" id="meme-1"src="imgs/meme1.png">
+      <img class="img-sample" id="meme-2" src="imgs/meme2.png">
+      <img class="img-sample" id="meme-3" src="imgs/meme3.png">
+      <img class="img-sample" id="meme-4" src="imgs/meme4.png">
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
