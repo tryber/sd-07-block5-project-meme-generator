@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <script type="text/javascript" src="script.js"></script>
+    
+</head>
+<header>
+    <h1>Project Meme Generator</h1>
+    
+</header>
+<body>
+    <form>
+        <!-- caixa onde o texto será inserido -->
+        <label for="text-input">Insira uma frase para o seu meme:</label><br>
+        <input type="text" id="text-input" maxlength="60"><br> 
+        <!-- elemento onde é feito o upload da imagem -->
+        <input type="file" id="meme-insert" accept="image/*" onchange="recebeImagem(event)"> 
+    </form>
+        <!-- container para imagem + texto = meme-image-container -->
+    <div id="meme-image-container" class="meme-image-container" class="size-image">
+        <!-- texto digitado -->
+        <div id="meme-text" class="meme-text"></div>
+        <!-- imagem carregada -->
+        <img id="meme-image" class="size-image" width="300px" height="300px">
+    </div>
+
+    <!-- bônus - continuar se der tempo
+
+        <div id="memes=prontos" class="memes-prontos">
+        <img id="meme1" src="menininha.jpg" class="quatro-memes">
+        <img id="meme1" src="gatinho-bravo.jpg" class="quatro-memes">
+        <img id="meme1" src="nazare.jpg" class="quatro-memes">
+        <img id="meme1" src="OMG-Karen.jpg" class="quatro-memes">
+    </div> --> 
+
+</body>
+</html>
+
+
