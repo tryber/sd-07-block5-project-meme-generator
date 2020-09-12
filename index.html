@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memes generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <label for="#text-input">Texto: </label>
+    <input type="text" id="text-input" class="text-input" maxlength="60">
+
+    <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert" class="meme-input">
+
+    <div id="meme-image-container" class="meme-image-container">
+      <img id="meme-image" class="meme-image" src="" alt="meme">
+      <p id="meme-text" class="meme-text"></p>
+    </div>
+
+    <div>
+      <p>Bordas Customizadas</p>
+      <button type="button" id="fire" class="btn-border fire">fire</button>
+      <button type="button" id="water" class="btn-border water">water</button>
+      <button type="button" id="earth" class="btn-border earth">earth</button>
+    </div>
+
+    <div>
+      <p>Memes pré-prontos</p>
+      <img src="imgs/meme1.png" id="meme-1" alt="meme 1" class="img-pronto">
+      <img src="imgs/meme2.png" id="meme-2" alt="meme 2" class="img-pronto">
+      <img src="imgs/meme3.png" id="meme-3" alt="meme 3" class="img-pronto">
+      <img src="imgs/meme4.png" id="meme-4" alt="meme 4" class="img-pronto">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
