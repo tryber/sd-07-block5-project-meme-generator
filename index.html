@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.:Meme Generator:.</title>
+  <link rel="stylesheet" href="style.css">
+  <!--Font import-->
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <header>
+   <h1 class="title">Meme Generator</h1>
+  </header>
+  <section>
+   <form class="formGeneraitor" enctype="multipart/form-data">
+    Texto: <input type="text" class="inputForm" id="text-input" maxlength="60" placeholder="Sua mensagem aqui!"><br/>
+    Foto:<input type="file" class="inputForm" id="meme-insert" accept="image/*">
+   </form>
+   <div id="meme-image-container" class="container-meme">
+     <img  alt="[meme-generator]" id="meme-image">
+     <div class="adjust-text">
+      <p id="meme-text" class="me-text"></p>
+    </div>
+   </div>
+   <div class="buttons">
+    Estilos customizados:<br>
+    <button class="fire"id="fire">Fire</button>
+    <button class="water" id="water">Water</button>
+    <button class="earth" id="earth">Earth</button>
+   </div>
+   <div class="preMeme">
+    Memes pré prontos:<br>
+    <div class="img" id="meme-1">
+      <img src="imgs/meme1mini.png" alt="miniatura">
+    </div>
+    <div class="img" id="meme-2">
+      <img src="imgs/meme2mini.png" alt="miniatura">
+    </div>
+    <div class="img" id="meme-3">
+      <img src="imgs/meme3mini.png" alt="miniatura">
+    </div>
+    <div class="img" id="meme-4">
+      <img src="imgs/meme4mini.png" alt="miniatura">
+    </div>
+   </div>
+  </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

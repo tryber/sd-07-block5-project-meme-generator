@@ -1,0 +1,130 @@
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: left;
+  width: 460px;
+}
+
+.buttons button {
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+body {
+  background-image: url('imgs/bgimage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  margin: 0;
+  padding: 0;
+}
+
+.container-meme {
+  background-color: white;
+  border: 1px solid black;
+  height: 460px;
+  margin: auto;
+  width: 460px;
+}
+
+.container {
+  height: 768px;
+  margin: auto;
+  text-align: center;
+  width: 1366px;
+}
+
+.earth {
+  background-color: green;
+  cursor: pointer;
+}
+
+.earth:hover {
+  box-shadow: 0 0 10px green;
+}
+
+.formGeneraitor {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 460px;
+}
+
+.formGeneraitor input {
+  margin-bottom: 10px;
+}
+
+.fire {
+  background-color: red;
+  cursor: pointer;
+}
+
+.fire:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.imgMeme {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.img {
+  border: 2px solid black;
+  cursor: pointer;
+  display: inline-block;
+  height: 80px;
+  margin-top: 10px;
+  width: 80px;
+}
+
+.img:hover {
+  box-shadow: 0 0 10px rgb(17 , 202 , 248);
+}
+
+.me-text {
+  bottom: 340px;
+  color: white;
+  font-family: Ranchers, cursive;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  white-space: normal;
+  width: 460px;
+  z-index: 1;
+}
+
+.meme {
+  font-family: Anton, sans-serif;
+}
+
+.preMeme {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: left;
+  width: 460px;
+}
+
+.title {
+  font-family: Ubuntu, sans-serif;
+}
+
+.water {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.water:hover {
+  box-shadow: 0 0 10px blue;
+}
