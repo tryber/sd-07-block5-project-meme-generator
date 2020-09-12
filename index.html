@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meme Generator</h1>
+    </header>
+    <section class="container">
+      <section>
+        <p>Texto:</p>
+        <input type="text" id="text-input" maxlength="60" />
+        <p>Foto:</p>
+        <input
+          type="file"
+          id="meme-insert"
+          accept="image/*"
+          value="Escolha a imagem"
+        />
+      </section>
+
+      <section class="meme-image-container" id="meme-image-container">
+        <p class="meme-text" id="meme-text"></p>
+        <img class="meme-image" src="" id="meme-image">
+      </section>
+
+      <section class="buttons">
+        <button class="btnFire" id="fire">Borda Fire</button>
+        <button class="btnWater" id="water">Borda Water</button>
+        <button class="btnEarth" id="earth">Borda Earth</button>
+      </section>
+
+      <section class="get-images">
+        <h3>Escolha uma imagem da lista se preferir</h3>
+        <img class="meme-1" src="imgs/meme1.png" id="meme-1">
+        <img class="meme-2" src="imgs/meme2.png" id="meme-2">
+        <img class="meme-3" src="imgs/meme3.png" id="meme-3">
+        <img class="meme-4" src="imgs/meme4.png" id="meme-4">
+      </section>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

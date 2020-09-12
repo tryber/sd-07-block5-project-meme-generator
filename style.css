@@ -1,0 +1,60 @@
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+}
+
+.meme-text {
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+.meme-image {
+  height: 400px;
+  width: 400px;
+}
+
+.buttons {
+  font-family: Impact, sans-serif;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.btnFire {
+  background-color: red;
+  color: white;
+}
+
+.btnWater {
+  background-color: blue;
+  color: white;
+}
+
+.btnEarth {
+  background-color: green;
+  color: white;
+}
+
+.meme-1 {
+  height: 100px;
+  width: 100px;
+}
+
+.meme-2 {
+  height: 100px;
+  width: 100px;
+}
+
+.meme-3 {
+  height: 100px;
+  width: 100px;
+}
+
+.meme-4 {
+  height: 100px;
+  width: 100px;
+}
