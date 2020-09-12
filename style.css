@@ -1,0 +1,65 @@
+/* classe do container */
+
+.imagevisible {
+    visibility: visible;
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+    /* background-color: rgb(255, 255, 255); /* O elemento que serve de container para a imagem deve ter o a cor de fundo branca; */
+    /* border: 1px solid black; O elemento que serve de container para a imagem deve ter uma borda preta, sólida, com 1 pixel de largura; */
+    
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */ 
+    
+    
+}
+
+/* classe do texto dentro da foto */
+#meme-text {
+    position: absolute; /*O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`. */
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px; /*O texto do elemento `meme-text` deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;*/
+    font-size: 30px; /*O texto do elemento `meme-text` deve ter a fonte com o tamanho de 30 pixels;*/
+    color: white; /* O texto do elemento `meme-text` deve estar na cor branca;*/
+    word-wrap: break-word; /* 1.3 */
+}
+
+/* A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~; */
+#meme-image {
+    width: 300px;
+    height: 300px;
+}
+
+/* Um botão identificado com o `id` chamado `fire` deve estilizar o container da imagem com uma borda de 3 pixels, _dashed_ e vermelha. */
+.fireborder {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: red;  
+}
+
+/* Um botão com `id` chamado `water` deve estilizar o container da imagem com uma borda azul, com 5 pixels do tipo _double_ . */
+.waterborder {
+    border-style: double;    
+    border-width: 5px;
+    border-color: blue; 
+}
+
+/* Um botão com `id` chamado `earth` deve estilizar o container da imagem com uma borda do tipo _groove_, verde e com 6 pixels. */
+.earthborder {
+    border-style: groove;
+    border-width: 6px;
+    border-color: green; 
+}
+
+.fireb{
+    background-color: rgb(255, 0, 0); /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
+}
+
+.waterb{
+    background-color: rgb(0, 0, 255); /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
+}
+
+.earthb{
+    background-color: rgb(0, 128, 0); /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
+}

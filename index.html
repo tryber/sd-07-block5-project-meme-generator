@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>My awesome meme</title>
+    </head>
+
+    <body style="background-color: aquamarine;">
+        <div>
+            <div>
+                <input id="text-input" type="text" MAXLENGTH=60> <!-- A caixa onde o texto é inserido deve ter um `id` denominado `text-input`;
+                                                                    A quantidade máxima de caracteres digitáveis no elemento `text-input` deve ser 60. -->
+            </div>
+
+            <div>
+                <input id="meme-insert" type="file">
+            </div>
+
+        </div>
+
+        <div id="meme-image-container" class="imagevisible"> <!-- Você deve criar um elemento para servir de _"container"_ para a **imagem** e para o **texto** do meme. Este elemento deve ter um `id` denominado `meme-image-container`; -->
+            
+            <div id="meme-text"> 
+                <!--Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`; -->
+            </div>
+
+            <div>
+                <img id="meme-image" src=" "> <!-- Dentro do elemento de container, você deve criar um outro elemento para mostrar a imagem selecionada. Este elemento deve possuir um `id` denominado `meme-image`; -->
+            </div>
+            
+        </div>
+    
+
+        <button id="fire" class="fireb">fire</button>   <!--   Os três botões devem ser elementos do tipo `button`; -->
+                                                            <!--   Um botão identificado com o `id` chamado `fire` deve estilizar o container da imagem com uma borda de 3 pixels, _dashed_ e vermelha. -->
+        <button id="water" class="waterb">water</button><!--   Os três botões devem ser elementos do tipo `button`; -->
+                                                            <!--   Um botão com `id` chamado `water` deve estilizar o container da imagem com uma borda azul, com 5 pixels do tipo _double_ .-->
+        <button id="earth" class="earthb">earth</button><!--   Os três botões devem ser elementos do tipo `button`; -->
+                                                            <!--   Um botão com `id` chamado `earth` deve estilizar o container da imagem com uma borda do tipo _groove_, verde e com 6 pixels. -->
+
+                                                            <!--   Após uma das três bordas ser selecionada, a borda padrão especificada no requisito 3 não deve mais aparecer; -->
+                                                            
+        <br>
+
+        <!-- O elemento que mostra as miniaturas dos memes deve ser identificado um um `id` denominado `meme-1` para o primeiro meme, `meme-2` para o segundo, `meme-3` para o terceiro e `meme-4` para o quarto.
+            As imagens que identificam os memes devem ficar dentro da aplicação, num diretório chamado `imgs` com os respectivos nomes `meme1.png`, `meme2.png`, `meme3.png` e `meme4.png`. Atenção também para o formato das imagens! ⚠️-->
+        <div id="meme-1"><img src="imgs/meme1.png" width="50" ></div>
+        <div id="meme-2"><img src="imgs/meme2.png" width="50"></div>
+        <div id="meme-3"><img src="imgs/meme3.png" width="50"></div>
+        <div id="meme-4"><img src="imgs/meme4.png" width="50"></div>
+        
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html> 

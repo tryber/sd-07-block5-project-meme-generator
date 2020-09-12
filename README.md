@@ -123,11 +123,11 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ##### As seguintes verificações serão feitas:
 
-- A caixa onde o texto é inserido deve ter um `id` denominado `text-input`;
+1.1 - A caixa onde o texto é inserido deve ter um `id` denominado `text-input`;
 
-- Você deve criar um elemento para servir de _"container"_ para a **imagem** e para o **texto** do meme. Este elemento deve ter um `id` denominado `meme-image-container`;
+1.2 - Você deve criar um elemento para servir de _"container"_ para a **imagem** e para o **texto** do meme. Este elemento deve ter um `id` denominado `meme-image-container`;
 
-- Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`;
+1.3 - Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`;
 
 - Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá.
 
