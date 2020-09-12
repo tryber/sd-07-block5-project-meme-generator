@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+        <title>Meme generator</title>
+    </head>
+    <body>
+        <h1>Gerador de meme pastelão</h1>
+        <section> 
+            <span>Texto:</span>
+            <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui"></br>
+           <div class="input-file"> <span>Imagem:</span>
+            <input id="meme-insert" type="file" accept="image/*"></br>
+        </div>
+            <div id="meme-image-container">
+                <img id="meme-image" src="" alt="imagem-para-meme">
+                <p id="meme-text"></p>
+            </div>
+        </section>
+        <div class="buttons-container">
+            <button id="fire">fire </button>
+            <button id="water">water</button>
+            <button id="earth">earth</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
