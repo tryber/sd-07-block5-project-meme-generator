@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Meme</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>CRIE SEU MEME AQUI !</h1>
+    </header>
+    <section>
+      <p>Texto: <input type="text" id="text-input" maxlength="60" /></p>
+      <p>
+        Foto:
+        <input
+          type="file"
+          accept="image/*"
+          onchange="loadFile(event)"
+          id="meme-insert"
+        />
+        <br />
+      </p>
+    </section>
+    <section id="meme-image-container" class="container">
+      <img id="meme-image" />
+      <div id="meme-text"></div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

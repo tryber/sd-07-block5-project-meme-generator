@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+.container {
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  height: 495px;
+  justify-content: center;
+  position: relative;
+  width: 510px;
+}
+
+#meme-text {
+  bottom: 35px;
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+#meme-insert {
+  position: absolute;
+}
+
+#meme-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
