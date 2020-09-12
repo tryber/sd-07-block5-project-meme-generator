@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MemeGenerator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class='body'>
+<main class='main'>
+<header class='header'>
+    <div class='main-title'><h1>Your <br> Own <br> MemeGenerator</h1></div>
+    <section class="explanation">
+        <h2>Como é que faz?</h2>
+        <p>Digite o texto na caixinha Texto, escolha a foto e corre p/ zueira! <br>
+        Você também pode usar uma foto que está no seu computador, é só subir no campo upload.
+        </p>
+    </section>
+</header>
+
+<section class='label-container'>
+<label class='labels'><strong>Texto =></strong>
+    <input type='text' id='text-input' class='text-input-box'>
+</label>
+<label class='labels'><strong>Upload =></strong>
+    <input type='file' accept="image/*" id='meme-insert' class='meme-insert-box'>
+</label>
+</section>
+
+<section class= 'generetor'>
+    <div class='left'>
+    <div id='meme-image-container' class='image-container-box'>
+        <div id='meme-text' class='meme-text'></div>
+        <img id='meme-image' class='meme-image' src=''>
+    </div>
+    </div>
+    <div class='right'>
+        <p><strong>Temas prontinhos para você usar:</strong></p>
+        <button id='fire' class='button-fire'>Fire</button>
+        <button id='water' class='button-water'>Water</button>
+        <button id='earth' class='button-earth'>Earth</button>
+
+        <p><strong>Imagens prontinhas para você usar:</strong></p>
+        <button id='btn-meme1'><img id='meme-1' class='button-meme' src="imgs/meme1.png" alt="imagem-meme1"></button>
+        <button id='btn-meme2'><img id='meme-2' class='button-meme' src="imgs/meme2.png" alt="imagem-meme2"></button>
+        <button id='btn-meme3'><img id='meme-3' class='button-meme' src="imgs/meme3.png" alt="imagem-meme3"></button>
+        <button id='btn-meme4'><img id='meme-4' class='button-meme' src="imgs/meme4.png" alt="imagem-meme4"></button>
+    </div>
+
+</section>
+</main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

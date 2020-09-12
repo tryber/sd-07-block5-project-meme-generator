@@ -1,0 +1,132 @@
+.body {
+  background-attachment: fixed;
+  background-image: url('https://images.unsplash.com/photo-1558244661-d248897f7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80');
+  background-repeat: no-repeat;
+  background-size: 1366px 768px;
+
+}
+
+.main {
+  background-color: rgba(255 , 255 , 255 , 0.836);
+  border-radius: 10px;
+  color: rgb(72 , 67 , 73);
+  font-family: Tahoma, sans-serif;
+  font-size: 1em;
+  height: 600px;
+  margin: auto;
+  padding: 0 20px 5px 0;
+  width: 80%;
+}
+
+.main-title {
+  display: inline-block;
+  font-size: 1.7em;
+  padding: 0 20px;
+  text-align: right;
+  text-shadow: 1px 1px 3px rgba(0 , 0 , 0 , 0.377);
+  width: 45%;
+}
+
+.explanation {
+  background-color: rgb(247 , 240 , 240);
+  border: dashed rgb(72 , 67 , 73);
+  border-radius: 10px;
+  bottom: 27px;
+  display: inline-block;
+  margin-left: 30px;
+  padding: 5px 20px;
+  position: relative;
+  width: 35%;
+}
+
+.label-container {
+  background-color: rgb(106 , 109 , 146);
+  color: white;
+  padding: 10px 20px;
+  width: 98%;
+}
+
+.labels {
+  display: inline-block;
+}
+
+.text-input-box {
+  font-size: 1em;
+  height: 20px;
+  width: 60%;
+}
+
+.generator {
+  align-items: center;
+}
+
+.left {
+  display: inline-block;
+  margin: 10px;
+  width: 45%;
+}
+
+.image-container-box {
+  background-color: white;
+  border: solid 1px black;
+  height: 249px;
+  margin: 20px 10px;
+  position: relative;
+  width: 476px;
+}
+
+.meme-text {
+  bottom: 0;
+  color: white;
+  font-size: 30px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 476px;
+}
+
+.meme-image {
+  height: 249px;
+  width: 476px;
+}
+
+.right {
+  display: inline-block;
+  height: 249px;
+  padding: 10px 40px;
+  position: absolute;
+  width: 30%;
+}
+
+.button-fire {
+  background-color: red;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.315);
+  font-weight: 600;
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+
+.button-water {
+  background-color: blue;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.685);
+  font-weight: 600;
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+
+.button-earth {
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.315);
+  font-weight: 600;
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+
+.button-meme {
+  height: 60px;
+  width: 70px;
+}
