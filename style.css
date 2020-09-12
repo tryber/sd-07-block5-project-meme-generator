@@ -1,0 +1,68 @@
+header {
+  background-color: black;
+  color: white;
+}
+
+main {
+  text-align: center;
+}
+
+.insert {
+  margin-top: 15px;
+}
+
+.text-meme {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 150px;
+}
+
+.image-meme {
+  height: 100%;
+  width: 100%;
+}
+
+
+.image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  position: relative;
+  width: 300px;
+}
+
+.input-text {
+  letter-spacing: 60;
+}
+
+.fire-class {
+  background-color: red;
+  color: white;
+}
+
+.water-class {
+  background-color: blue;
+  color: white;
+}
+
+.earth-class {
+  background-color: green;
+  color: white;
+}
+
+.mini {
+  width: 80px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  width: 80px;
+}
