@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <section>
+        <h1>Meme Generator - a Trybe Project by Jota</h1>
+        <article>
+            <div>Type your Meme Text:
+                <br>
+                <input type="text" id="text-input" placeholder="Your Meme Here" maxlength="60">
+            </div>
+            <div>Your image Here:
+                <br>
+                <input type="file" id="meme-insert">
+                <p>Visualisation:</p>
+            </div>
+            <div id="meme-image-container" class="divMemeImageContainer">
+                    <img id="meme-image" class="imgMemeImage">
+                    <div id="meme-text" class="divMemeText">Meme Text</div>
+            </div>
+            <div>
+                <button id="fire" class="butFire">FIREE</button><button id="water" class="butWater">WATER</button><button id="earth" class="butEarth">EARTH</button>
+            </div>
+        </article>
+        <aside>
+            <div>
+                <img id="meme-1" class="memeReady" src="/imgs/meme1.png" alt="Doggy leaking an ice cream">
+                <img id="meme-2" class="memeReady" src="/imgs/meme2.png" alt="Arrakis giant worm and two standing man">
+                <img id="meme-3" class="memeReady" src="/imgs/meme3.png" alt="Ben Parker lecturing">
+                <img id="meme-4" class="memeReady" src="/imgs/meme4.png" alt="Fry Woo-Hoo interjection">
+                <img id="meme-5" class="memeReady" src="/imgs/meme5.png" alt="A zombie horde walking">
+            </div>
+        </aside>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

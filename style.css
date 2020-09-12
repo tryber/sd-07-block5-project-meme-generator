@@ -1,0 +1,67 @@
+.divMemeImageContainer {
+  background-color: white;
+  border: 1px black solid;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  width: 500px;
+}
+
+.imgMemeImage {
+  height: 500px;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.divMemeText {
+  color: white;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  object-fit: cover;
+  object-position: bottom;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 0;
+  width: 100%;
+}
+
+.butFire {
+  background-color: red;
+  width: 167px;
+}
+
+.butWater {
+  background-color: blue;
+  width: 168px;
+}
+
+.butEarth {
+  background-color: green;
+  width: 167px;
+}
+
+.memeReady {
+  border: 1px solid black;
+  display: block;
+  height: 95px;
+  object-fit: cover;
+  object-position: center;
+}
+
+aside {
+  display: inline-block;
+  text-align: right;
+}
+
+article {
+  display: inline-block;
+  text-align: left;
+}
