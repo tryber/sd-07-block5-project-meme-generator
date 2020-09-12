@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+    <h1>MEME GENERATOR</h1>
+    </header>
+
+    <section>
+        <fieldset >
+        <legend>Adicione um Texto e uma Imagem</legend>
+
+            <div class="line-space" >
+                <label for="text">Texto</label>
+                <input id="text-input" type="text" maxlength="60" required>
+            </div>
+
+            <div class="line-space">
+                <label for="file">Imagem</label>
+                <input id="meme-insert" type="file" accept="image/*">
+            </div>
+
+            <div class="anotacao">
+                <p>Caso você não tenha uma imagem, deixamos algumas disponíveis para você no final da página :)</p>
+            </div>
+
+            <div class="container-image"  id="meme-image-container">
+                <div class="meme-txt" id="meme-text"></div>
+                <img src="" alt="Imagem meme" class="meme-img" id="meme-image">
+            </div>
+
+            <h4>Quer estilizar sua borda? Clique nos botões a baixo:</h4>
+            <button class="fire" id="fire">FIRE</button>
+            <button class="water" id="water">WATER</button>
+            <button class="earth" id="earth">EARTH</button>
+
+            <h4>Você também pode escolher uma de nossas imagens:</h4>
+
+            <div>
+                <img class="meme" id="meme-1" src="/imgs/meme1.png" alt="homem revirando o olho">
+                <img class="meme" id="meme-2" src="/imgs/meme2.png" alt="mulher pensativa">
+                <img class="meme" id="meme-3" src="/imgs/meme3.png" alt="homem fingindo simpatia">
+                <img class="meme" id="meme-4" src="imgs/meme4.png" alt="mulher sendo simpatia">
+            </div>
+
+        </fieldset>
+    </section>
+
+    <script type="text/javascript" src="/script.js"></script>
+</body>
+</html>

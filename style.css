@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+}
+
+button {
+  color: white;
+  font-weight: 900;
+  height: 30px;
+  margin: 10px;
+  width: 150px;
+}
+
+fieldset {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.anotacao {
+  font-size: 12px;
+}
+
+.container-image {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  width: 500px;
+}
+
+.earth {
+  background-color: green;
+  border-color: green;
+}
+
+.fire {
+  background-color: red;
+  border-color: red;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+.meme {
+  border: 2px solid black;
+  width: 120px;
+
+}
+
+.meme-img {
+  height: 100%;
+  width: 100%;
+}
+
+.meme-txt {
+  bottom: 0;
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  margin-top: 90%;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  top: 0;
+  width: inherit;
+}
+
+.water {
+  background-color: blue;
+  border-color: blue;
+}
