@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME GENERATOR</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    
+
+</head>
+<body>    
+    <label id=teste>Texto:</label>
+    <input id="text-input" maxlength="60"></br>
+
+    <label >Foto:</label>
+    <!-- <button >Selecione a foto</button> -->
+    <input id='meme-insert' type="file" accept="image/*" onchange="loadFile(event)">
+    <script>
+        let loadFile=function(event){
+            let output=document.getElementById('meme-image');
+            output.src=URL.createObjectURL(event.target.files[0]);
+            output.onload=function(){
+                URL.revokeObjectURL(output.src);
+            }
+        };
+    </script>
+
+    <div id='meme-image-container'>
+        <img id='meme-image' src=''>
+            <p id='meme-text'>
+                
+            </p>
+    </div>
+    <div id='botoes-borda'>
+        <button class='botao-borda' id='water'>Borda1</button>
+        <button class='botao-borda' id='fire'>Borda2</button>
+        <button class='botao-borda' id='earth'>Borda3</button>
+    </div>
+    <div>
+        <img id='meme-1' class="mini-meme">
+        <img id='meme-2' class="mini-meme">
+        <img id='meme-3' class="mini-meme">
+        <img id='meme-4' class="mini-meme">
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+#meme-image-container{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+#meme-image{
+    width: 300px;
+    height: 300px;
+    border-width: 1px;    
+    position: absolute;
+    /* src:'./images/meme-cachorro.jpg' */
+}
+
+#meme-text{
+    height : 100px;
+    width: 300px;
+    position: absolute;
+    border-width: 5px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.botao-borda{
+    width: 90px;
+    height: 90px;    
+}
+
+#botoes-borda{
+    margin-left: 10px;
+}
+
+#water{
+    background-color: blue;
+    color: white;
+}
+
+#fire{
+    background-color:red;
+    color: white;
+}
+
+#earth{
+    background-color: green;    
+    color: white;
+}
+
+.mini-meme{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
