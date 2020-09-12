@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="input-block">
+            <label>Texto: </label>
+            <input type="text" id="text-input" maxlength="60"/>
+        </div>
+        <div class="input-block">
+            <label>Foto: </label>
+            <input type="file" id="meme-insert" />
+        </div>
+        <div class="meme-container" id="meme-image-container">
+            <img id="meme-image" src="https://picsum.photos/500/400">
+            <p id="meme-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
