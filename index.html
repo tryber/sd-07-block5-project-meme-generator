@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+        <title>Primeiro projeto</title>
+        <link rel="stylesheet"
+                href="style.css"
+        >
+        </head>
+        <body>
+            <h1>MEME GENERATOR</h1>
+
+        
+            <div class="caixa">
+            <h3>texto:</h3>
+            </div>
+            <div class="caixa">
+            <input type="text" maxlength="60" id="text-input">
+            </div>
+            <br>
+            <br>
+            <div class="caixa2">
+            <h3>foto:</h3>
+            </div>
+            <div class="caixa2">
+            <input type="file" accept="image/*" onchange="aparecerImagem(event)" id="meme-insert" class="meme-insert" >
+            </div>
+            <br>
+            <br>
+            <section id="meme-image-container" class="meme-image-container">
+                
+                <div id="meme-image" class="meme-image">
+                <!--aqui vou receber a imagem -->
+                <img class= "preview-image" id="preview-image" src="" alt="aqui está a imagem selecionada pelo usuario">
+        
+                <div class="meme-text" id="meme-text">
+               
+                </div>
+                </div>
+            </section>
+    
+    
+            <h3>Estilos Customizados:</h3>
+            <br>
+            <button class="fire" id="fire">vermelho</button>
+            <button class="water" id="water">azul</button>
+            <button class="eart" id="earth">verde</button>
+
+            <h3>Memes pré-prontos: </h3>
+        </body>
+        <script src="script.js"></script>
+        </html>
