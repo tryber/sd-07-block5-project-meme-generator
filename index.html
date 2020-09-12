@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1 id="header">Create memes and have fun</h1>
+		<h3>
+			Creativity is allowing yourself
+			to make mistakes.<br>
+			Art is knowing
+			which ones to keep.
+		</h3>
+	</header>
+	<div class="wrapper">
+		<div class="input-block">
+				<label>Insert text: </label>
+				<input type="text" id="text-input" maxlength="60"/>
+		</div>
+		<div class="input-block">
+				<label>Insert photo: </label>
+				<input type="file" id="meme-insert" />
+		</div>
+		<div class="meme-container" id="meme-image-container">
+				<img id="meme-image" src="https://picsum.photos/500/400">
+				<p id="meme-text"></p>
+		</div>
+</div>   
+</body>
+<script src="script.js"></script>
+</html>
