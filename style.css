@@ -1,0 +1,58 @@
+.titulo {
+  background-color: blueviolet;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 250px;
+}
+
+body {
+  background-image: url('imgs/Fundo\ meme.png');
+  margin-left: 400px;
+}
+
+.memeText {
+  bottom: 30px;
+  color: white;
+  float: left;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+.meme-container {
+  background-color: white;
+  border: solid black 1px;
+  height: 450px;
+  position: relative;
+  width: 450px;
+}
+
+.fire1 {
+  background-color: red;
+  border: 3px red dashed;
+  border-radius: 30px;
+  height: 40px;
+  width: 80px;
+}
+
+.water1 {
+  background-color: blue;
+  border: 3px blue double;
+  border-radius: 30px;
+  height: 40px;
+  width: 80px;
+}
+
+.earth1 {
+  background-color: green;
+  border: 3px green groove;
+  border-radius: 30px;
+  height: 40px;
+  width: 80px;
+}
+
+.image {
+  padding-left: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Meme-Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+
+<body>
+    <h1 class="titulo">Meme-Generator</h1>
+    <label class="titulo">Selecione a Imagem
+        <input id="meme-insert" type="file" accept="image/*"
+            onchange="document.querySelector('#meme-image').src = window.URL.createObjectURL(this.files[0])">
+    </label>
+    <label>Texto
+        <input type="text" maxlength="60" id="text-input" size="20">
+        </labe>
+
+        <div class="meme-container" id="meme-image-container">
+            <img id="meme-image" src="" alt="Imagem do meme" width="450px" height="450px">
+            <div  class ="memeText"id="meme-text"></div>
+        </div>
+
+
+        <button class="fire1" id="fire">Fire</button>
+        <button  class="water1"id="water">Water</button>
+        <button class="earth1" id="earth">Earth</button>
+        <h2 class="titulo"> Memes pŕe carregados</h2>
+
+        <div class="image" id="images">
+
+            <img id="meme-1" src="imgs/meme1.png" alt="Homem de ferro" width="80px" height="80">
+            <img id="meme-2" src="imgs/meme2.png" alt="willy wonka" width="80px" height="80">
+            <img id="meme-3" src="imgs/meme3.png" alt="Rihanna" width="80px" height="80">
+            <img id="meme-4" src="imgs/meme4.png" alt="Mr bean" width="80px" height="80">
+
+        </div>
+
+        <script type="text/javascript" src="script.js"> </script>
+</body>
+</html>
