@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MEME GENERATOR</h1>
+    <!-- Meme insert -->
+
+    <div class="inputArea">
+        <form>
+            <input id="text-input" class="textInput" type="text" placeholder="Digite aqui" maxlength="60">
+        </form>
+
+        <form action="/action_page.php">
+            <input id="meme-insert" type="file" name="img" accept="image/*">
+        </form>
+    </div>
+
+    <!-- Meme Display -->
+    <div id="meme-image-container" class="memeImageContainer">
+        <img id="meme-image" class="memeImage" src="">
+        <p id="meme-text" class="memeText">Texto Teste</p>
+    </div>
+    <div class="buttons">
+        <button id="fire" class="fire">Fire</button>
+        <button id="water" class="water">Water</button>
+        <button id="earth" class="earth">Earth</button>
+        <button id="default">Default</button>
+    </div>
+
+    <div class="memesMenu">
+        <img id="meme-1" class="previewMemes" src="imgs/meme1.png">
+        <img id="meme-2" class="previewMemes" src="imgs/meme2.png">
+        <img id="meme-3" class="previewMemes" src="imgs/meme3.png">
+        <img id="meme-4" class="previewMemes" src="imgs/meme4.png">
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

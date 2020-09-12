@@ -1,0 +1,71 @@
+h1 {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.buttons {
+  margin-bottom: 18px;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.earth {
+  background-color: green;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+
+.inputArea {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+.memeImage {
+  height: 300px;
+  width: 300px;
+}
+
+.memeImageContainer {
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 300px;
+}
+
+.memesMenu {
+  text-align: center;
+}
+
+.memeText {
+  color: white;
+  font-size: 30px;
+  height: 150px;
+  left: 5px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 115px;
+  width: 290px;
+  word-break: break-all;
+}
+
+.previewMemes {
+  height: 100px;
+  width: 100px;
+}
+
+.textInput {
+  text-align: left;
+  width: 280px;
+}
