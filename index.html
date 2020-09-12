@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <h1>Create your own meme!</h1>
+  </header>
+<!-- Text input -->
+  <div>
+    <form>
+      <label for="text-input">Insert your text:</label>
+      <input type="text" id="text-input" name="text-input" oninput="writeText()">
+    </form>
+  </div>
+<!-- Image input -->
+  <div>
+    <div>
+      <label for="meme-insert">Upload your image:</label>
+      <input type="file" id="meme-insert" accept="image/*" onchange="loadFile(event)"><br>
+    </div>
+  </div>
+<!-- Meme output -->
+  <div id="meme-image-container" class="container">
+    <img id="meme-image" class="meme-image" src="" alt="User image">
+    <p id="meme-text" class="meme-text"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
