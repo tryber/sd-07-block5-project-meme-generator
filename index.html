@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meme Generator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <label for="text-input">Digite o texto do meme:</label>
+        <input id="text-input" type="text" maxlength="60"><br>
+        <label for="meme-insert">Foto:</label>
+        <input type="file" name="" id="meme-insert">
+
+        <div class="container" id="meme-image-container">
+            <p class="meme-text" id="meme-text">Seu texto vai aqui...</p>
+            <img class="meme-image" id="meme-image" src="" alt="Imagem usada para o meme">
+        </div>
+
+        <div class="estilos">
+            <button class="button-fire" id="fire">Fire</button>
+            <button class="button-water" id="water">Water</button>
+            <button class="button-earth" id="earth">Earth</button>
+        </div>
+
+        <div class="miniaturas">
+            <img id="meme-1" src="./imgs/meme1.png" alt="Miniatura 1">
+            <img id="meme-2" src="./imgs/meme2.png" alt="Miniatura 2">
+            <img id="meme-3" src="./imgs/meme3.png" alt="Miniatura 3">
+            <img id="meme-4" src="./imgs/meme4.png" alt="Miniatura 4">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

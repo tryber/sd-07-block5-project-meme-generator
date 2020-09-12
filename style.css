@@ -1,0 +1,54 @@
+.container {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin-top: 50px;
+  position: relative;
+  width: 500px;
+}
+
+.meme-text {
+  bottom: 0;
+  color: white;
+  font-family: Teko, sans-serif;
+  font-size: 30px;
+  height: 200px;
+  left: 50px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 400px;
+}
+
+.meme-image {
+  height: 500px;
+  width: 500px;
+}
+
+.estilos button {
+  font-weight: 600;
+  margin: 2em;
+  width: 100px;
+}
+
+.button-fire {
+  background-color: red;
+  color: white;
+}
+
+.button-water {
+  background-color: blue;
+  color: white;
+}
+
+.button-earth {
+  background-color: green;
+  color: white;
+}
+
+.miniaturas img {
+  border: 1px solid black;
+  height: 100px;
+  margin: 2em;
+  width: 100px;
+}
