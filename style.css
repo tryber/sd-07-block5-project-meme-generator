@@ -1,0 +1,53 @@
+.insert-div {
+  text-align: center;
+}
+
+#text-button {
+  display: inline-block;
+  position: relative;
+  margin: 1rem;
+  font-size: 1.5em;
+  height: 100%;
+}
+
+#text-input {
+  position: relative;
+  top: -0.15rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  height: 1.9rem;
+  width: 20vw;
+}
+
+#meme-image {
+  height: 100%;
+  width: 100%; 
+  display: inline-block;
+  margin: auto;
+}
+
+#meme-image-container {
+  background-color: white;
+  position: relative;
+  margin: auto;
+  height: 30vw;
+  width: 50vw;
+  border: black solid 1px;
+}
+
+#meme-text {
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  font-size: 30px;
+  height: 60vh;
+  width: 45.5vw;
+  padding: 2rem;
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
