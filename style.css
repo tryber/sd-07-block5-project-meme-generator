@@ -1,0 +1,66 @@
+p {
+  font-family: Arial, sans-serif;
+}
+
+span {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: white;
+  border: black solid 1px;
+  height: 500px;
+  position: relative;
+  width: 600px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  left: 15px;
+  max-width: 550px;
+  overflow-wrap: break-word;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 380px;
+  word-wrap: break-word;
+}
+
+.container img {
+  height: 500px;
+  width: 600px;
+}
+
+.pre-memes img {
+  border: black 1px solid;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.borders button {
+  border: none;
+  border-radius: 15%;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 15px;
+}
+
+.borders button + button {
+  margin-left: 15px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}

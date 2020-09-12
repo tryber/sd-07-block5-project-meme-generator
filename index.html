@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Meme generator - Pablo Pessanha</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div id="text-insert">
+      <span>Text: </span>
+      <input type="text"
+      id="text-input" maxlength="60">
+   </div>
+   <div id="upload-img">
+      <label for="img">Select image: </label>
+      <input type="file" id="meme-insert" name="img">
+   </div>
+   <div id="meme-image-container" class="container">
+      <img id="meme-image">
+      <span id="meme-text" class="text"></span>
+   </div>
+   <div class="borders">
+      <p>Choose a border:</p>
+      <button id="fire" class="red">Red</button>
+      <button id="water" class="blue">Blue</button>
+      <button id="earth" class="green">Green</button>
+   </div>
+   <div class="pre-memes">
+      <p>Choose one meme:</p>
+      <img id="meme-1" src="./imgs/meme1.png"></img>
+      <img id="meme-2" src="./imgs/meme2.png"></img>
+      <img id="meme-3" src="./imgs/meme3.png"></img>
+      <img id="meme-4" src="./imgs/meme4.png"></img>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
