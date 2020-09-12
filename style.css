@@ -1,0 +1,45 @@
+.container {
+  background: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: 1em;
+  padding: 0;
+  position: relative;
+  width: 300px;
+}
+
+.image {
+  height: 400px;
+  margin: 0;
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+}
+
+.text {
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  margin-top: 300px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
+  z-index: 2;
+}
+
+.thumbnail {
+  height: 80px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
