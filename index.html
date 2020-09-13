@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset = "UTF-8">
+        <title>Meme Generator</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" media = "screen">
+    </head>
+    <body>
+        <header>
+            <h1>MEME GENERATOR</h1>
+        </header>
+        <nav>
+            <form class = "form-input">
+                <label for = "text-input">Text:</label>
+                <input class = "input" type = "text" id = "text-input" maxlength = "60"></input>
+                <br/>
+                <br/>
+                <label for = "meme-insert">Photo:</label>
+                <input type = "file" accept = "image/*" id = "meme-insert"></input>
+            </form>
+        </nav>
+        <main>
+            <section class = "memecreation">
+                <div class = "box" id="meme-image-container">
+                    <img alt = "Meme Generator - Images uploaded to the site from the user's personal computer" id = "meme-image" src = ""/>
+                    <p id="meme-text"></p>
+                </div>
+            </section>
+            <section class = "buttoncreation">
+                <button class = "button-fire" id = "fire">Red Border</button>
+                <button class = "button-water" id = "water">Blue Border</button>
+                <button class = "button-earth" id = "earth">Green Border</button>
+            </section>
+            <section class = "center">
+                <img class = "picture" src = "imgs/meme1.png" id = "meme-1" alt = "Meme defined by the website - Distorted image of a female face"></img>
+                <img class = "picture" src = "imgs/meme2.png" id = "meme-2" alt = "Meme defined by the website - Image of child crying and screaming"></img>
+                <img class = "picture" src = "imgs/meme3.png" id = "meme-3" alt = "Meme defined by the website - Image of a mother holding her children while drinking champagne"></img>
+                <img class = "picture" src = "imgs/meme4.png" id = "meme-4" alt = "Meme defined by the website - Image of a boyfriend distracted looking at another girl"></img>
+            </section>
+        </main>
+        <footer></footer>
+        <script src = "script.js"></script>
+    </body>
+</html>

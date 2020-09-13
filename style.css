@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: cyan;
+  color: rgba(91 , 100 , 107 , 0.9);
+  height: 50px;
+  left: 0;
+  padding-bottom: 25px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.form-input {
+  margin-top: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.form-input .input {
+  height: 15px;
+  width: 400px;
+}
+
+.memecreation {
+  text-align: center;
+}
+
+.memecreation .box {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 300px;
+  margin-top: 20px;
+  position: relative;
+  width: 300px;
+}
+
+.memecreation .box img {
+  height: 300px;
+  width: 300px;
+}
+
+.memecreation .box p {
+  bottom: 10%;
+  color: white;
+  font-size: 30px;
+  margin: 5px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+.buttoncreation {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.buttoncreation .button-fire {
+  background-color: red;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 35px;
+  padding: 05px;
+}
+
+.buttoncreation .button-water {
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 35px;
+  padding: 05px;
+}
+
+.buttoncreation .button-earth {
+  background-color: green;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 20px;
+  padding: 05px;
+}
+
+.center {
+  margin-left: 60px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.center .picture {
+  display: inline-block;
+  height: 80px;
+  margin-right: 70px;
+  width: 80px;
+}
