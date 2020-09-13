@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Impact";
+  src: url("fonts/impact.ttf");
+}
+
+fieldset {
+  width: fit-content;
+}
+
+#meme-image-container {
+  display: inline-block;
+  background-color: white;
+  /* border: 1px solid black; */
+  width: 500px;
+  height: 500px;
+}
+
+#meme-text {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  text-align: center;
+  width: 80%;
+  height: 60px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+  font-family: Impact, sans-serif;
+  font-weight: 600;
+}
+
+#meme-image {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+#meme-image-container {
+  position: relative;
+}
+
+.button {
+  display: inline-block;
+  border: 3px solid black;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+  color: honeydew;
+}
+
+.red {
+  background-color: red;
+  color: honeydew;
+}
+
+.blue {
+  background-color: blue;
+  color: honeydew;
+}
+
+.earth-border {
+  border: 6px groove rgb(0, 128, 0);
+}
+
+.fire-border {
+  border: 3px dashed rgb(255, 0, 0);
+}
+
+.water-border {
+  border: 5px double rgb(0, 0, 255);
+}
+
+.default-border {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.thumb {
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project Meme Generator</title>
+  </head>
+  <body>
+    <h1>Meme Generator</h1>
+    <form>
+      <fieldset>
+        <p>
+          <label>Texto: </label
+          ><input type="text" id="text-input" maxlength="60" />
+        </p>
+        <!-- Linha abaixo inspirada em https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977 -->
+        <p>
+          <label>Foto: </label
+          ><input
+            id="meme-insert"
+            type="file"
+            accept="image/*"
+            id="file-input"
+            onchange="loadFile(event)"
+            name="filename"
+          />
+        </p>
+        <section id="meme-image-container" class="default-border">
+          <img id="meme-image" src="img/sniper-cat.jpg" />
+          <div id="meme-text"></div>
+        </section>
+        <section id="bonus-features">
+          <h2>Estilos customizados para a borda</h2>
+          <section id="custom-buttons">
+            <button type="button" class="button green" id="earth">
+              Terra 🍀
+            </button>
+            <button type="button" class="button red" id="fire">Fogo 🔥</button>
+            <button type="button" class="button blue" id="water">
+              Água 🌊
+            </button>
+          </section>
+          <h2>Memes predefinidos</h2>
+          <section id="default-memes">
+            <img class="thumb" id="meme-1" src="img/meme1-chloe.jpg" />
+            <img class="thumb" id="meme-2" src="img/meme2-waitwhat.jpg" />
+            <img class="thumb" id="meme-3" src="img/meme3-goodguygreg.jpg" />
+            <img class="thumb" id="meme-4" src="img/meme4-idontalways.jpg" />
+          </section>
+        </section>
+      </fieldset>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
