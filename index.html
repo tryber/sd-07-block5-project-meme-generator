@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="first-class">
+        <h1 class="main-title">Projeto: Meme Generator</h1>
+        <p>Inserir breve descrição do projeto aqui</p>
+    </header>
+    
+    <section class="second-class">
+        <div>
+            Insira seu texto aqui: <input type="text" id="text-input" maxlength="60">
+        </div>
+       <div>
+           Selecione sua imagem: <input type="file" id="meme-insert" accept="image/*" onchange="fileImag(event)">
+        </div>
+    
+            
+        
+        <section id="meme-image-container" class="meme-container">
+            <div id="meme-text">            
+                texto para colocar em cima da img
+            </div>
+            <img id="meme-image" src="" alt="imagem do meme"/>
+        </section>
+    </section>
+    <footer>
+        @Trybe - Realizado por EMoonlit
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
