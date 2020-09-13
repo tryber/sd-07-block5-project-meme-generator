@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>MEME GENERATOR</h1>
+  </header>
+
+  <div id="center" class="center">
+
+    <section class="main">
+
+      <p>
+        Digite o texto desejado que ficará sobre a imagem:
+        <input id="text-input" type="text" placeholder="Digite o texto desejado" maxlength="60">
+      </p>
+
+      <p>
+        Escolha o arquivo de imagem que será fundo do meme:
+        <input type="file" id="meme-insert" name="meme-insert">
+      </p>
+
+      <section id="meme-image-container" class="meme-image-container">
+        <p id="meme-text" class="meme-text">
+        </p>
+
+        <div id="meme-image" class="meme-image" src=""></div>
+
+      </section>
+
+      <div class="change-border">
+        <button id="fire" class="fire">🔥</button>
+        <button id="water" class="water">🌊</button>
+        <button id="earth" class="earth">🌱</button>
+      </div>
+
+    </section>
+
+    <aside>
+      <h2>Se preferir, escolha uma das nossas imagens mais frequentes</h2>
+      <img src="/imgs/meme1.png" id="meme-1" alt="Opção de meme 1">
+      <img src="/imgs/meme2.png" id="meme-2" alt="Opção de meme 2">
+      <img src="/imgs/meme3.png" id="meme-3" alt="Opção de meme 3">
+      <img src="/imgs/meme4.png" id="meme-4" alt="Opção de meme 4">
+    </aside>
+
+  </div>
+
+  <footer>
+    <p>&copy; Hercules Gabriel 🚀 Trybe</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
