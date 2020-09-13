@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator - Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&family=Lobster&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="total-container">
+    <form>
+      <legend>Gerador de Memes</legend>
+      <p class="form-paragraph">
+        <label for="text-input">Insira o texto: </label>
+        <input type="text" name="meme-text" class="box-input" id="text-input" maxlength="60" size="35" placeholder=">>> ex: Sou Tryber!">
+      </p>
+      <p class="form-paragraph">
+        <label for="meme-insert">Carregue sua imagem <span>(imagem até 500kb)</span></label>
+      </p>
+      <input type="file" name="meme-figure" class="small-button-input" id="meme-insert">
+    </form>
+
+    <section class="white-background" id="meme-image-container">
+
+      <img src="" alt="meme" class="contido" id="meme-image">
+
+      <p class="contido, paragraph-style" id="meme-text"></p>
+    </section>
+
+    <button class="button-fire" id="fire"></button>
+    <button class="button-water" id="water"></button>
+    <button class="button-earth" id="earth"></button>
+    <img src="./imgs/meme1.png" alt="Homem com marca de camiseta - mensagem. Concurso camiseta Harry Potter" class="mini-image" id="meme-1">
+    <img src="./imgs/meme2.png" alt="Homem cançado com bebe no colo - mensagem. Mim dê papai" class="mini-image" id="meme-2">
+    <img src="./imgs/meme3.png" alt="Homem com cara de sapeca - mensagem. Vamo assistir netflix aqui em casa?" class="mini-image" id="meme-3">
+    <img src="./imgs/meme4.png" alt="Gata dormindo largada no sofa - mensagem. HH hoje vai ser de boa. Tryber 15:00 no sábado" class="mini-image" id="meme-4">
+    <img src="./imgs/meme5.png" alt="Gata com um bone - mensagem. Tá afim de uns uiscas diferenciados?" class="mini-image" id="meme-5">
+    <img src="./imgs/meme6.png" alt="Homem comendo um sanduíche muito grande - mensagem. Ain não sinto muita fome. Eu depois do almoço" class="mini-image" id="meme-6">
+    <img src="./imgs/meme7.png" alt="Homem dormindo enquanto ninava seu filho na cadeirinha de descanço - mensagem. Cansa ser pai? Nada, é moleza" class="mini-image" id="meme-7">
+  </section>
+  <div class="meme-right">
+    <img src="../imgs/bg.jpg" alt="meme Moisés Tryber">
+  </div>
+
+  <footer>
+    <h2>Todos direitos reservados, MoisesSantana</h2>
+    <address>
+      <p class="social-media"><a href="https://linkedin.com/in/moises-santana">LinkedIn<img src="./imgs/linkedin.png" alt="LinkedIn Logo"></a> <a href="https://github.com/MoisesSantana">GitHub<img src="./imgs/github.png" alt="GitHub Logo"></a></p>
+    </address>
+    <address>
+      <p class="link-icons">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+    </address>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(95 , 75 , 102);
+  margin: 0;
+  padding: 0;
+}
+
+.total-container {
+  background-color: rgb(95 , 75 , 102);
+  box-shadow: 0 0 3px white;
+  float: left;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 800px;
+}
+
+legend {
+  color: rgb(135 , 151 , 175);
+  font-family: Kufam, cursive;
+  font-size: larger;
+  margin-bottom: 10px;
+  text-decoration: underline overline;
+}
+
+.form-paragraph {
+  background-color: rgb(135 , 151 , 175);
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+label {
+  font-family: Ubuntu, sans-serif;
+  letter-spacing: 2px;
+  margin-left: 40px;
+}
+
+.box-input , .small-button-input {
+  border-radius: 10px;
+}
+
+.box-input {
+  background-color: rgb(44 , 19 , 32);
+  border: none;
+  height: 25px;
+}
+
+.small-button-input {
+  width: 115px;
+}
+
+.white-background {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 800px;
+}
+
+.contido {
+  height: 400px;
+  position: absolute;
+  width: 800px;
+}
+
+.paragraph-style {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+button {
+  border-radius: 100%;
+  cursor: pointer;
+  height: 100px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.button-fire {
+  background: url('../imgs/fire.png');
+  background-color: red;
+  background-size: 100px;
+  border: 1px solid red;
+}
+
+.button-fire:hover {
+  border: 3px solid red;
+}
+
+.button-water {
+  background: url('../imgs/water.png');
+  background-color: blue;
+  background-size: 100px;
+  border: 1px solid blue;
+}
+
+.button-water:hover {
+  border: 3px solid blue;
+}
+
+.button-earth {
+  background: url('../imgs/earth.png');
+  background-color: green;
+  background-size: 100px;
+  border: 1px solid green;
+}
+
+.button-earth:hover {
+  border: 3px solid green;
+}
+
+.mini-image {
+  cursor: pointer;
+  height: 100px;
+  margin-right: 5px;
+  width: 55px;
+}
+
+.mini-image:hover {
+  border-radius: 100%;
+}
+
+.meme-right {
+  background-color: rgb(44 , 19 , 32);
+  border-radius: 20px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(135 , 151 , 175);
+  clear: both;
+  font-family: Lobster, cursive;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: center;
+}
+
+.social-media {
+  font-family: Ubuntu, sans-serif;
+  word-spacing: 50px;
+}
+
+.social-media a {
+  color: rgb(44 , 19 , 32);
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  font-size: 32px;
+}
+
+.link-icons {
+  color: rgb(95 , 75 , 102);
+  font-family: Ubuntu, sans-serif;
+}
