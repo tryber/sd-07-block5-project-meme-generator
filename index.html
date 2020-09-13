@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <!--font-family: 'Sigmar One', cursive;-->
+
+    <title>Projeto do Bloco 5 - Meme Generator</title>
+</head>
+<link rel='stylesheet' href='./style.css'>
+
+<body>
+    <header>
+        <h1> Meme Generator </h1>
+    </header>
+
+    <main>
+        <label for=''>Texto: <input type='text' id='text-input' maxlength='60' /></label>
+        <label for=''>Imagem: <input type='file' id='meme-insert' class="meme-insert"></label>
+
+        <div id='meme-image-container' class="meme-image-container">
+
+            <img src='' alt='' id='meme-image' class="meme-image">
+
+            <div class='meme-text'><p id='meme-text'> </p> </div>
+
+        </div>
+
+        <div class='estilos-cusomizados'>
+            <h3>Estilos prontos: </h3>
+            <button type='button' id='fire' class="fire">Fire</button>
+            <button type='button' id='water' class="water">Water</button>
+            <button type='button' id='earth' class="earth">Earth</button>
+        </div>
+
+        <div class='memes-prontos'>
+            <h3>Memes prontos: </h3>
+            <img src='./imgs/meme1.png' alt='' style='max-height: 50px;' id='meme-1' class="meme-1">
+            <img src='./imgs/meme2.png' alt='' style='max-height: 50px;' id='meme-2' class="meme-2">
+            <img src='./imgs/meme3.png' alt='' style='max-height: 50px;' id='meme-3' class="meme-3">
+            <img src='./imgs/meme4.png' alt='' style='max-height: 50px;' id='meme-4' class="meme-4">
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+<script src='./script.js'></script>
+
+</html>
