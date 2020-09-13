@@ -1,0 +1,91 @@
+.barra {
+    align-items: center;
+    border: 3px solid black;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: large;
+    border-radius: 20%;
+    background-color: #00000060;
+}
+  #meme-text{
+   
+    color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    font-weight: 800;
+    
+
+  }
+
+  body{
+    background-color:rgb(92, 95, 112);;/*carrega primeiro   */
+}
+
+h2{
+    color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: large; 
+    text-align: center;
+    padding:20px;
+}
+
+#meme-image-container{    
+    border: 1px solid black;
+    padding: 20px;
+    padding-top: 10px;
+   
+    background-color:white;
+    position: relative;
+    width: 700px;
+    left: 550px;
+    height: 500px;
+ 
+}
+.painel1{
+  text-align: center;
+  padding: 20px;
+}
+    
+#entradaImagem {
+  color:white;
+  font-style: normal;
+  font-family: Courier, "Lucida Console", monospace;
+  font-size: large; 
+  text-align: center;
+  padding: 20px;
+
+}
+
+.footer_caixa{
+  margin-top: 30px;
+  background-color: #00000060;
+  padding: 20px;
+
+  
+}
+.footer_p{
+ 
+  color:white;
+  font-style: normal;
+  font-family: Courier, "Lucida Console", monospace; 
+  text-align: center;
+}
+
+#meme-image{
+  width: 700px;
+  left: 550px;
+  height: 500px;
+
+}
