@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme-generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+    <h1>MEME GENERATOR</h1>
+
+    <!-- Inserindo o texto do meme via input text -->
+    <h3>Texto:</h3>
+    <input id="text-input" type="text" name="userText" size="85" maxlength="60">
+
+    <!-- Inserindo a imagem do meme via input file-->
+    <h3>Imagem:</h3>
+    <input id="meme-insert" type="file" name="imageMeme" accept="image/*">
+
+    <!-- Conteiner para exibir o texto e a imagem inseridas -->
+    <h3>Pré-visualização:</h3>
+    <section id="meme-image-container">
+        
+        <div id="meme-text"></div>
+
+        <img id="meme-image" src="">
+
+    </section>
+
+    <!-- Selecionando o estilo de borda do container -->
+    <h3>Borda:</h3>
+
+    <button id="fire" onclick="bordaFire()">Fire</button>
+
+    <button id="water" onclick="bordaWater()">Water</button>
+
+    <button id="earth" onclick="bordaEarth()">Earth</button>
+
+    <!-- Selecionando templates de memes famosos -->
+    <h3>Sugestões de imagem:</h3>
+
+    <img id="meme-1" class="templates" src="./imgs/meme1.png" alt="Meme do programador intrigado">
+
+    <img id="meme-2" class="templates" src="./imgs/meme2.png" alt="Meme com personagem chorando no chão">
+
+    <img id="meme-3" class="templates" src="./imgs/meme3.png" alt="Meme com Tony Stark debochado">
+
+    <img id="meme-4" class="templates" src="./imgs/meme4.png" alt="Meme do Kermit desolado na janela">
+
+    <!-- Carregando os scripts -->
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Impact, sans-serif;
+}
+
+#meme-text {
+    position: absolute;
+    text-shadow: black 5px 5px 5px;
+    font-size: 30px;
+    color: white;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#meme-image-container {
+    position: relative;
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#meme-image {
+    width: 100%;
+    height: 600px;
+}
+
+/* Botões de configuração das bordas */
+
+#fire, #water, #earth {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+}
+
+#fire {
+    background-color: red;
+}
+
+#water {
+    background-color: blue;
+}
+
+#earth {
+    background-color: green;
+}
+
+/* Miniaturas dos templates de memes */
+
+.templates {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+}
