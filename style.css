@@ -1,0 +1,72 @@
+#meme-image-container{
+
+  position: relative;
+  display: inline-block;
+  top: 3%;
+  left: 22%;
+  border-width: 1px;
+  border-style: solid;
+  border-color:  rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  height: 400px;
+
+}
+#meme-image {
+
+  width: inherit;
+  height: inherit;
+  background-color: rgb(255, 255, 255);
+}
+
+.top{
+
+  margin-left: 35%;
+}
+
+#meme-text {
+  position: absolute;
+  left: 35%;
+  top: 85%;
+  font-size: 30px;
+  white-space: normal;
+  color: rgb(255, 255, 255);
+  text-shadow:rgb(0, 0, 0) 5px 5px 5px;
+}
+
+#cores{
+  margin-left: 520px;
+}
+
+#fire {
+
+width: 70px;
+height: 30px;
+background-color: rgb(255, 0, 0);
+}
+#water {
+
+width: 70px;
+height: 30px;
+background-color: rgb(0, 0, 255);
+}
+#earth {
+
+width: 70px;
+height: 30px;
+background-color: rgb(0, 128, 0);
+}
+#meme-1 {
+
+width: 250px;
+height: 150px;
+margin-top: 10px;
+margin-left: 150px;
+
+}
+#meme-2, #meme-3, #meme-4 {
+width: 250px;
+height: 150px;
+margin-top: 10px;
+
+}
