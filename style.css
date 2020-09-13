@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.head-class {
+  box-shadow: 1px 1px 3px black;
+  margin-top: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  background-color: rgb(28 , 28 , 28);
+  color: white;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.main {
+  display: inline-block;
+  width: 550px;
+}
+
+.div-input-text {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.text-input {
+  width: 375px;
+}
+
+.div-input-file {
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.meme-container {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px black;
+  height: 500px;
+  margin-left: 5px;
+  margin-top: 30px;
+  position: relative;
+  width: 500px;
+}
+
+.meme-text {
+  bottom: 0;
+  color: white;
+  font-family: Teko, sans-serif;
+  font-size: 30px;
+  height: 200px;
+  left: 50px;
+  max-width: 400px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 400px;
+}
+
+.meme-image {
+  height: 500px;
+  width: 500px;
+}
+
+.div-button {
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+  width: 500px;
+}
+
+.fire {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px black;
+  color: white;
+  height: 30px;
+  margin-right: 14px;
+  width: 157px;
+}
+
+.water {
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px black;
+  color: white;
+  height: 30px;
+  margin-right: 14px;
+  width: 157px;
+}
+
+.earth {
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px black;
+  color: white;
+  height: 30px;
+  width: 157px;
+}
+
+.aside-class {
+  display: inline-block;
+  height: 500px;
+  width: 200px;
+}
+
+.miniature-img {
+  box-shadow: 1px 1px 3px black;
+  display: block;
+  height: 100px;
+  margin: 10px;
+  width: 100px;
+}
