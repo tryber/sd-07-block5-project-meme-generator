@@ -1,0 +1,223 @@
+
+body {
+   
+    
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    width: 100vh;
+}
+
+.gradiente-bg {
+    
+    align-items: center;
+    animation: colors 15s ease-in-out infinite;
+    background-size: 500%,500%;
+    background: linear-gradient(45deg,#01454b,#102a2c,#032541,#420f03);
+    border-radius: 20px;
+    height: 1500px ;
+    justify-content: center;
+}
+
+    @keyframes colors {
+        0% {
+            background-position: 0%,50%;
+        }
+        50% {
+            background-position: 100%,50%;
+        }
+        100% {
+            background-position: 0%,50%;
+        }
+        
+    }
+
+header{
+    
+    background-color: rgb(83, 83, 83);
+    color: honeydew;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 150px;
+    line-height:150px ;
+    margin-left: -15px;
+    margin-top: -22px; 
+    text-align: center;
+    width: 1350px;
+  
+}
+
+.meme-image-container {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px black; 
+    height: 500px;  
+    margin-left: 450px;
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+}
+
+.meme-image {
+    border-radius: 10px;
+    height: 500px;    
+    object-fit: contain;
+    width: 400px;
+}
+
+.meme-text {
+    bottom: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 20px;
+    position: absolute;
+    text-shadow: black 5px 5px 5px;
+    text-transform: uppercase;
+}
+
+#text-input {
+    display: inline-block;
+    margin: 20px;    
+    text-align: center;
+}
+
+#meme-insert {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+.textMeme {
+    margin-left: 500px;
+}
+.textMeme p{
+    color: honeydew;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
+}
+#btBorder {
+    margin-left: 500px;
+}
+
+
+.textMeme input{
+    height: 30px;
+    margin: -10px;
+    width: 200px;
+}
+
+.fire {
+    background-color: tomato;
+    border-radius: 8px;
+    color: whitesmoke;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
+
+}
+.fire:hover {
+    box-shadow: 3px 3px 5px black;
+    font-size: 15pt;
+    height: 40px;
+    line-height: 35px;
+    transition-duration: .2s;
+    width: 70px;
+    
+}
+
+.water {
+    background-color: rgb(54, 87, 233);
+    border-radius: 8px;
+    color: whitesmoke;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
+}
+.water:hover {
+    box-shadow: 3px 3px 5px black;
+    font-size: 15pt;
+    height: 40px;
+    line-height: 35px;
+    transition-duration: .2s;
+    width: 70px;
+
+}
+.earth {
+    background-color: rgb(94, 69, 24);
+    border-radius: 8px;
+    color: whitesmoke;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
+}
+.earth:hover {
+    box-shadow: 3px 3px 5px black;
+    font-size: 15pt;
+    height: 40px;
+    line-height: 35px;
+    transition-duration: .2s;
+    width: 70px;
+}
+
+section h2 {
+    color: ivory;
+    font-size: 30pt;
+    margin-left: 500px;
+}
+.bob {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 80px;
+    margin: 10px;
+    width: 200px;
+}
+
+.boo {
+    border-radius: 10px;
+    height: 200px;
+    margin: 10px;
+    width: 200px;
+}
+
+.menino {
+    border-radius: 10px;
+    height: 200px;
+    margin: 10px;
+    width: 200px;
+}
+
+.carminha{
+    border-radius: 10px;
+    height: 200px;
+    margin: 10px;
+    width: 200px;
+}
+
+
+footer{
+    
+    background-color: rgb(83, 83, 83);
+    color: honeydew;  
+    height: 100px;
+    line-height:150px ;
+    margin-left: -15px;
+    margin-top: 150px;
+    text-align: center;
+    width: 1350px;
+}
