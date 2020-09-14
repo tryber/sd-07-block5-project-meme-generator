@@ -1,0 +1,36 @@
+/* Arquivo dos estilos CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(253, 251, 251);
+}
+
+#divTest {
+    background-color: rgb(150, 175, 175);
+}
+
+#meme-image-container {
+    background-color: white;
+    border: solid black 1px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#meme-image {
+    position: absolute; 
+    width: 300px;
+    height: 300px;
+}
+
+#meme-text {
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+    /* float: left; */
+}
+
+.memeImage {
+   
+}
