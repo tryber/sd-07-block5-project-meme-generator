@@ -7,11 +7,9 @@ body {
 
 .container {
   background-color: white;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px black solid;
   margin: 2px;
-  padding-top: 10px;
+  position: relative;
 }
 
 .container, img {
@@ -23,8 +21,12 @@ body {
 .textInput {
   color: purple;
 }
-
+  
 .memeText {
-  color: royalblue;
-  height: 200px;
+  color: white;
+  bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+  position: absolute;
 }
