@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator Project</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+   
+</head>
+<body>
+    <div id="selectors">
+    <label for="meme-insert"></label>
+    <input id="meme-insert" type="file" accept="image/*">
+    <label for="text-input"></label>
+    <input id="text-input" type="text" placeholder="Digite o texto aqui!" maxlength="60" onchange="loadFile(event)">
+     <!-- horadecodar.com.br/2020/03/31/css-como-estilizar-um-input-do-tipo-file/ -->   
+    </div>
+    <section id="meme-image-container">
+        <div id="meme-text">
+        </div>
+        <img id="meme-image" src="" alt="Escolha: imagem" type="image" onerror=""> 
+    </section>
+    <footer id="endOfPage">
+        <section id="buttons">
+            <button class="borderButton" id=water>Water</button>
+            <button class="borderButton" id=fire>Fire</button>
+            <button class="borderButton" id=earth>Earth</button>
+        </section>
+        <section id="smallPictures">
+            <img class="smallMeme" id="meme-1" src="imgs/meme1.png" alt="Imagem meme 1">
+            <img class="smallMeme" id="meme-2" src="imgs/meme2.png" alt="Imagem meme 2">
+            <img class="smallMeme" id="meme-3" src="imgs/meme3.png" alt="Imagem meme 3">
+            <img class="smallMeme" id="meme-4" src="imgs/meme4.png" alt="Imagem meme 4">
+        </section>
+    </footer>
+</body>
+</html>
+
+<!-- <a href=""> -->
