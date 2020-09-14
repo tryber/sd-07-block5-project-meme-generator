@@ -7,7 +7,7 @@ memeText.innerText = textInput.value;
 });
 //Inserção de imagem no container
 const memeInsert = document.querySelector('#meme-insert');
-const memeImage = document.querySelector('# meme-image');
+const memeImage = document.querySelector('#meme-image');
 memeInsert.addEventListener('change', function(event) {
 
     memeImage.src = URL.createObjectURL(event.target.files[0]);
