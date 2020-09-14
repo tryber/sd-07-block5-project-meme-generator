@@ -6,18 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <href="style.css">
         <link href="style.css" rel="stylesheet">
-        <title>Document</title>
+        <title>Meme Generator</title>
 </head>
 
 <body>
+  <script src = 'js.js'></script>
     <center>
         <h1>Meme Generator</h1>
-        <input type="file" name="arquivos" class="btn btn-success"  accept="image/png, image/jpeg"  multiple /> 
-        <img id="output" />
-        <div class="container"></div>
-
+        <div class="text">
+            <h2>Texto:</h2>
+            <input
+              type="text"
+              name="text-input"
+              id="text-input"
+              maxlength="60"
+              class="input-text"
+            />
+          </div>
+          <div id="meme-image-container" class="meme-image-container">
+            <div id="meme-text" class="meme-text"></div>
+            <img
+              id="meme-image"
+              class="meme-image"
+              src="meme5.jpg"
+              width="50%"
+            />
+          </div>
+        
     </center>
-
 </body>
 
 </html>
