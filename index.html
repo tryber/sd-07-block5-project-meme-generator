@@ -1,20 +1,27 @@
-<!DOCTYPE html>
+x <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MEME</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="text-input">
-    <section id="meme-image-container">
+    <h1>MEME GENARATOR</h1>
+    <label for="text">Texto:</label>
+        <input type="text" id="text-input" maxlength="60">
+
+    <div id="meme-image-container">
+
         <div id="meme-text"></div>
+
         <div id="meme-image"></div>
-    </section>
-    <div id="meme-insert"></div>
+    </div>
+<label for="meme-insert">Foto</label>
+    <input type="file" accept="image/*" id="meme-insert"></input>
 
 
 
-
+<script src="script.js"></script>
 </body>
 </html>

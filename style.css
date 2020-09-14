@@ -1,6 +1,15 @@
-#meme-image-container {
+#meme-image-container{
 background-color: white;
-border: 1px;
+border: solid 3px;
 border-color: black;
+width: 400px;
+height:400px;
+padding: 0%;
+margin: auto;
+}
 
+#meme-text{
+text-shadow: 5px black;
+font-size: 30px;
+color: white;
 }
