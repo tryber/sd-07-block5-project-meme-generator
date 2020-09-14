@@ -1,9 +1,28 @@
-#meme-image-container {
-    background-color: aqua;
-    border: black;
+body {
+    background-color: rgb(245, 122, 51);
+    color: navy;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.container   {
+    background-color: white;
+    border: 1px;
+    border-color: slateblue;
+    border-style: solid;
     height: 500px;
     margin: 2px;
     padding-top: 10px;
-    width: 600px;
+    height: 320px;
+    width: 320px;
+}
 
+#text-input {
+    color: purple;
+}
+
+.memeText {
+    color: royalblue;
+    height: 200px;
 }
