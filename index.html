@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
+
+    <section>
+        <div>
+            <label for="">Texto:</label>
+            <input type="text" id="text-input" maxlength="60">
+        </div>
+        <div>
+            <label for="">Foto:</label>
+            <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)">
+        </div>
+    </section>
+    <section id="meme-image-container" class="meme-container">
+        <img src="" alt="" id="meme-image">
+        <div id=meme-text>
+        </div>
+    </section>
+    <nav id="btns-container">
+        <ul>
+            <li>
+                <button id="fire">red</button>
+            </li>
+            <li>
+                <button id="water">blue</button>
+            </li>
+            <li>
+                <button id="earth">green</button>
+            </li>
+        </ul>
+    </nav>
+    <nav id="imgs-containeir">
+        <ul>
+            <li>
+                <img src="imgs/meme1.png" alt="" id="meme-1">
+            </li>
+            <li>
+                <img src="imgs/meme2.png" alt="" id="meme-2">
+            </li>
+            <li>
+                <img src="imgs/meme3.png" alt="" id="meme-3">
+            </li>
+            <li>
+                <img src="imgs/meme4.png" alt="" id="meme-4">
+            </li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</body>
+
+</html>
