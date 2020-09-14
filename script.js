@@ -1,15 +1,6 @@
-    function readURL(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
+let textInput = document.getElementById('text-input');
+let memeText = document.getElementById('meme-text');
 
-            reader.onload = function(e) {
-                $('#blah').attr('src', e.target.result);
-            }
-
-            reader.readAsDataURL(input.files[0]);
-        }
-    }
-
-    $("#imgInp").change(function() {
-        readURL(this);
-    });
+textInput.addEventListener('input', function updateValue(event) {
+    memeText.textContent = event.target.value
+});
