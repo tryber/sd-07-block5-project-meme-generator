@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(245, 122, 51);
+  background-color: rgb(245 , 122 , 51);
   color: navy;
   margin: 0;
   padding: 0;
@@ -8,13 +8,10 @@ body {
 .container {
   background-color: white;
   border: 1px solid black;
-  overflow: hidden;
-  position: relative;
-}
-
-.container {
   height: 320px;
   width: 320px;
+  overflow: hidden;
+  position: relative;
 }
 
 img {
@@ -26,9 +23,9 @@ img {
 }
 
 .memeText {
-  color: white;
   bottom: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-family: monospace;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
   position: absolute;
