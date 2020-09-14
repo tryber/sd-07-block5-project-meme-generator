@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Trybe | Meme Generator</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header-left-svg" src="imgs/faca.svg" alt="faca" />
+      <h1>Knife and Cheese | Meme Generator</h1>
+      <img class="header-right-svg" src="imgs/queijo.svg" alt="queijo" />
+    </header>
+    <div class="top-center-content">
+      <h2>Texto a ser inserido no meme:</h2>
+      <input
+        type="text"
+        name="text-input"
+        id="text-input"
+        maxlength="60"
+        class="input-text"
+      />
+    </div>
+    <div class="container">
+      <div class="main-content">
+        <div class="input-content">
+          <label class="button input-file-button">
+            Selecionar imagem<input
+              type="file"
+              class="input-type-file"
+              accept="image/*"
+              id="meme-insert"
+            />
+          </label>
+        </div>
+        <div id="meme-image-container" class="meme-image-container">
+          <div id="meme-text" class="meme-text"></div>
+          <img
+            id="meme-image"
+            class="meme-image"
+            src="./imgs/trybe.png"
+          />
+        </div>
+        <h3>Selecione um estilo de borda:</h3>
+        <div id="divBorderButtons" class="div-border-buttons">
+          <button id="fire" class="button btn-fire">Fogo</button>
+          <button id="water" class="button btn-water">Água</button>
+          <button id="earth" class="button btn-earth">Terra</button>
+        </div>
+      </div>
+      <div class="div-thumbnails-container div-border-buttons">
+        <h3>Selecione um meme famoso:</h3>
+        <div class="div-thumbnails-memes">
+          <img id="meme-1" src="./imgs/meme1.png" class="thumbnails" />
+          <img id="meme-2" src="./imgs/meme2.png" class="thumbnails" />
+        </div>
+        <div class="div-thumbnails-memes">
+          <img id="meme-3" src="./imgs/meme3.png" class="thumbnails" />
+          <img id="meme-4" src="./imgs/meme4.png" class="thumbnails" />
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
