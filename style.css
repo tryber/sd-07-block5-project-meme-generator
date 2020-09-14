@@ -1,0 +1,104 @@
+body {
+    background-color: #B0C4DE;
+}
+
+#buttonStyles {
+    position: absolute;
+    left: 1px;
+    bottom: 10px;
+}
+
+.changeButtons {
+    position: absolute;
+    left: 410px;
+    top: 73px;
+    border: 1px black solid;
+}
+
+#container {
+    position: absolute;
+    height: 630px;
+    background-color: #4682B4;
+    left: 230px;
+    width: 600px;
+    border: 1px black solid;
+
+}
+#buttonStyles{
+    position: absolute;
+    left: 400px;
+    top: 34px;
+    color:white;
+}
+
+.earth {
+    background-color: #32CD32;
+    position: absolute;
+    left: 500px;
+    top: 74px;
+}
+
+.fire {
+    background-color: #DC143C;
+    position: absolute;
+    left: 400px;
+    top: 74px;
+}
+
+#inputs {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+
+.meme-text {
+    font-size: 30px;
+    bottom: 0.1%;
+    right: 15%;
+    color: white;
+    position: absolute;
+    overflow-wrap: break-word;
+    text-shadow: 5px 5px 5px black;
+    top: 330px;
+    left: 90px;
+}
+
+.meme-image {
+    background-color: black;
+    box-shadow: 0 0 3px white;
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 480px;
+    left: 10px;
+}
+
+
+.meme-image-container {
+    position: absolute;
+    background-color: white;
+    border: 1px black solid;
+    padding-top: 1px;
+    width: 520px;
+    height: 500px;
+    margin-top: 10px;
+    top: 100px;
+    left: 40px;
+}
+
+#meme-image-container {
+    position: absolute;
+}
+
+.water {
+    position: absolute;
+    left: 445px;
+    top: 74px;
+    background-color: #00BFFF;
+}
+
+
+
+
+
