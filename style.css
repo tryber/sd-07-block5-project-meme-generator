@@ -1,0 +1,25 @@
+.bordercss {
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+.borderradius {
+    border-radius: 3%;
+}
+.imgContainer {
+    position: relative;
+    width: 500px;
+    height: 250px;
+}
+#meme-image{
+    position: relative;
+}
+#meme-text {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    z-index: 1;
+    top: 50%;
+    left: 5%;
+}
