@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Meme generator</h1>
+
+  <section>
+    Texto:<input type="text" id="text-input" maxlength="60" size="35"  oninput="myFunction()">
+  </section>
+
+  <p>
+    <label for="meme-insert">foto:<span>(imagem até 500kb)</span></label>
+  </p>
+
+    Foto:<input type="file" name="meme-figure" id="meme-insert">
+
+
+  <div id="meme-image-container">
+    <p id="meme-text" ></p>
+    <img src="" alt="meme" id="meme-image">
+
+  </div>
+  <h1>Estilos customizados:</h1>
+
+  <button id="fire">Fire 🔥</button>
+  <button id="water">Water 💦</button>
+  <button id="earth">Earth 🌎</button>
+
+  <h1>Memes pré prontos</h1>
+  <img src="./imgs/meme1.png" alt="Homer simpson assustado" class="memes" id="meme-1">
+  <img src="./imgs/meme2.png" alt="Homer simpson " class="memes" id="meme-2">
+  <img src="./imgs/meme3.png" alt="Homer simpson vibrando de alegria" class="memes" id="meme-3">
+  <img src="./imgs/meme4.png" alt="Lisa simpson" class="memes" id="meme-4">
+
+<script src="script.js">
+</script>
+</body>
+</html>
