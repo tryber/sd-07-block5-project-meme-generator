@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Impact;
+  src:url(impact.ttf);
+}
+
+.imageContainer {
+  display: block;
+  margin: auto;
+  position:relative;
+  border: solid 1px;
+  width: 500px;
+  height: 400px ;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.memeImage {
+  width: 500px;
+  height: 400px;
+}
+
+
+.memeText {
+  position: absolute;
+  text-align: center;
+  width: 300;
+  bottom: 0px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  font-size: 30px;
+  word-break: break-all;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.textInput {
+  margin-left: 432px;
+}
+
+.fireButton {
+  background-color: red;
+}
+
+.waterButton {
+  background-color: blue;
+}
+
+.earthButton {
+  background-color: green;
+}
