@@ -1,9 +1,9 @@
 body {
-  background-color: rgb( 245, 122, 51 );
+  background-color: rgb(245, 122, 51);
   color: navy;
   margin: 0;
   padding: 0;
-  }
+}
 
 .container {
   background-color: white;
@@ -16,7 +16,7 @@ body {
   width: 320px;
 }
 
-#text-input {
+.textInput {
   color: purple;
 }
 
