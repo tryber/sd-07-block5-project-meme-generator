@@ -7,21 +7,24 @@ body {
 
 .container {
   background-color: white;
-  border: 1px black solid;
-  margin: 2px;
+  border: 1px solid black;
+  overflow: hidden;
   position: relative;
 }
 
-.container, img {
-  background-size: 320px 320px;
+.container {
   height: 320px;
   width: 320px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .textInput {
   color: purple;
 }
-  
+
 .memeText {
   color: white;
   bottom: 10px;
