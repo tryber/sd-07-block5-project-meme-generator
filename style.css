@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(245 , 122 , 51);
+  color: navy;
+  margin: 0;
+  padding: 0;
+}
+
+
+section {
+  margin: 15px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.container {
+  background: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: 15px;
+  position: relative;
+  width: 400px;
+}  
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.textInput {
+  color: purple;
+}
+
+.memeText {
+  bottom: 10px;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+}
+
