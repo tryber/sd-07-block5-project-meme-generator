@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME GENERATOR</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
+    <section>
+        <form action="/action_page.php">
+            <label>Texto:</label>
+            <input type="text" id="text-input" class="text-input" maxlength="60"><br><br>
+            <label>Foto:</label>
+            <input type="file" id="meme-insert" class="meme-insert" accept="image/*">
+        </form>
+    </section>
+    <div id="container" class="container">
+        <div id="meme-image-container" class="meme-image-container">
+            <div id="meme-text" class="meme-text"></div>
+            <img src="" id="meme-image" class="meme-image">
+            <h2>Customize seu Estilo:</h2>
+            <button id="fire" class="fire">FIRE 🔥 </button>
+            <button id="water" class="water">WATER 🌊 </button>
+            <button id="earth" class="earth">EARTH 🌎 </button>
+        </div><br><br><br><br><br><br><br>
+        <div>
+            <h3>Memes Prontos:</h3>
+            <img src="imgs/meme1.png" class="memes" id="meme-1">
+            <img src="imgs/meme2.png" class="memes" id="meme-2">
+            <img src="imgs/meme3.png" class="memes" id="meme-3">
+            <img src="imgs/meme4.png" class="memes" id="meme-4">
+        </div>
+    </div>
+</body>
+</html>
