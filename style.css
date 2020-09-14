@@ -1,0 +1,79 @@
+a {
+  color: rgb(241 , 145 , 67);
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.botaum {
+  height: 30px;
+  margin: 10px;
+}
+
+.botaum button {
+  height: 25px;
+  width: 125px;
+}
+
+.earth {
+  background-color: green;
+}
+
+.fire {
+  background-color: red;
+}
+
+h1 {
+  color: rgb(250 , 188 , 60);
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-left: 30%;
+  text-align: center;
+  text-shadow: 3px 3px 1px black;
+}
+
+.images {
+  margin-left: 10%;
+  width: 1000px;
+}
+
+.images img {
+  border: 1px solid black;
+  box-shadow: 5px 2px gray;
+  height: 200px;
+  width: 200px;
+}
+
+.meme-container {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 5px 2px gray;
+  height: 500px;
+  margin-left: 30%;
+  position: relative;
+  width: 500px;
+}
+
+.memeImage {
+  height: 100%;
+  width: 100%;
+}
+
+.memeText {
+  bottom: 25px;
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  width: 100%;
+}
+
+.princip {
+  text-align: center;
+}
+
+.water {
+  background-color: blue;
+}
