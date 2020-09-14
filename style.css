@@ -1,0 +1,113 @@
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 350px;
+  position: relative;
+  width: 350px;
+}
+
+.meme-text {
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 900;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: black 5px 5px 5px;
+  text-transform: uppercase;
+  top: 200px;
+  width: 346px;
+}
+
+img {
+  height: 350px;
+}
+
+.cover {
+  object-fit: cover;
+  width: 350px;
+}
+
+button {
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+}
+
+.fire {
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.box {
+  border: 1px solid black;
+  display: inline-block;
+  height: 82.5px;
+  width: 82.5px;
+}
+
+.meme-1 {
+  background-image: url('./imgs/meme1.png');
+  background-size: cover;
+  position: absolute;
+  top: 25px;
+}
+
+.meme-2 {
+  background-image: url('./imgs/meme2.png');
+  background-size: cover;
+  left: 90px;
+  position: absolute;
+  top: 25px;
+}
+
+.meme-3 {
+  background-image: url('./imgs/meme3.png');
+  background-size: cover;
+  left: 180px;
+  position: absolute;
+  top: 25px;
+}
+
+.meme-4 {
+  background-image: url('./imgs/meme4.png');
+  background-size: cover;
+  left: 270px;
+  position: absolute;
+  top: 25px;
+}
+
+.border-button {
+  margin-top: 10px;
+}
+
+.text-input {
+  display: inline-block;
+  margin-top: 100px;
+  width: 340px;
+}
+
+.meme-insert {
+  display: block;
+  margin-top: 10px;
+}
+
+.images-upload {
+  position: relative;
+}
+
+.main-content {
+  margin-left: 450px;
+  margin-top: 100px;
+}
