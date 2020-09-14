@@ -1,0 +1,27 @@
+#meme-image-container {
+  background-color: white;
+  border: black solid 1px;
+  height: 650px;
+  position: relative;
+  width: 650px;
+}
+
+#meme-text {
+  color: white;
+  font-family: 'Impact', 'Ubuntu', 'sans-serif';
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  /*bottom: 10px;*/
+  left: 10px;
+  z-index: 2;
+  top: 300px;
+}
+
+#meme-image {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
