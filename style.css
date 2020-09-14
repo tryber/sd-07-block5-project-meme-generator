@@ -1,0 +1,60 @@
+body {
+  padding-left: 20px;
+}
+
+.btn-fire {
+  background-color: red;
+  color: white;
+}
+
+.btn-earth {
+  background-color: green;
+  color: white;
+}
+
+.btn-water {
+  background-color: blue;
+  color: white;
+}
+
+.btns {
+  height: 30px;
+  width: auto;
+}
+
+.div-photo {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.div-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 500px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.meme-images {
+  border: 1px solid black;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.text-paragraph {
+  color: white;
+  font-size: 30px;
+  left: 20px;
+  margin-left: 20px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 500px;
+  z-index: 2;
+}
