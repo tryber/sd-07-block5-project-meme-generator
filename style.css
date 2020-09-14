@@ -1,0 +1,134 @@
+body {
+  border: 5px solid #00CED1;
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+}
+#meme-image-container {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+	border:1px solid black;
+	background: white;
+  z-index: 3;
+  display: inline-block;
+  position: relative;
+}
+#meme-image {
+	width: 500px;
+  height: 500px;
+  z-index: 2;
+}
+#meme-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+#chooseAFile {
+  padding: 5px;
+  color: black;
+  background-color: #00CED1;
+  border: 2px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#chooseAFile:hover {
+  background-color: #00FFFF;
+}
+#status {
+  margin-left: 20px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+
+/*Ajustando o tamanho dos nomes "ESTILOS" e "ARQUIVO DE MEMES"*/
+h3 {
+  font-size: 16px;
+}
+
+/*Mudando as configurações dos botões de "ESTILOS"*/
+#fire {
+  padding: 5px;
+  width: 90px;
+  height: 50px;
+  color: black;
+  background-color: red;
+  border: 2px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#fire:hover {
+  background-color: #FF3030;
+}
+#water {
+  padding: 5px;
+  width: 90px;
+  height: 50px;
+  color: black;
+  background-color: blue;
+  border: 2px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#water:hover {
+  background-color: #00BFFF;;
+}
+#earth {
+  padding: 5px;
+  width: 90px;
+  height: 50px;
+  color: black;
+  background-color: green;
+  border: 2px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#earth:hover {
+  background-color: #32CD32;
+}
+#air {
+  padding: 5px;
+  width: 90px;
+  height: 50px;
+  color: black;
+  background-color: #CDC9C9;
+  border: 2px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#air:hover {
+  background-color: #EEE9E9;
+}
+#theFifthElement {
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  color: black;
+  background-color: #FFD700;
+  border: 2px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#theFifthElement:hover {
+  background-color: #FFFF00;
+}
+
+/*Configurando as imagens*/
+#meme-1, #meme-2, #meme-3, #meme-4, #meme-5, #meme-6, #meme-7, #meme-8, #meme-9, #meme-10 {
+  border: 2px solid #000;
+  border-radius: 30%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+#meme-1:hover, #meme-2:hover, #meme-3:hover, #meme-4:hover, #meme-5:hover, #meme-6:hover, #meme-7:hover, #meme-8:hover #meme-9:hover #meme-10:hover {
+   background-color: #00FFFF;
+}
+#fogo, #agua, #terra, #ar, #quintoElemento {
+  width: 20px;
+} 

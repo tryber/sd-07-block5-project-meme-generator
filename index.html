@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Projeto Meme Generator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    </head>
+    <body>
+      <h1>MEME GENERATOR</h1>
+      <div><strong>TEXTO: </strong><input type="text" id="text-input" autocomplete="off" data-ls-module="charCounter" maxlength="60" placeholder="Digite o texto do seu meme" required></div>
+        <br>
+      <div id="foto"><strong>FOTO: </strong><button type="button" id="chooseAFile"><input id="meme-insert" type="file" hidden="hidden" accept="image/*" style="display:none">Choose a File</button></div>
+        <div id="status">No file.png chosen.</div>
+        <figure id="meme-image-container">
+          <div id="meme-text">CRIE SEU MEME!</div>
+          <a href="#"><img id="meme-image" href="#"/></a>
+        </figure>
+        <br>
+        <div id="estilos">
+          <h3>ESTILOS </h3>
+          <button id="fire">Fogo <img id="fogo" src="/imgs/emoticons/emoticon-fogo.png"/></button>
+          <button id="water">Água <img id="agua" src="/imgs/emoticons/emoticon-agua.png"/></button>
+          <button id="earth">Terra <img id="terra" src="/imgs/emoticons/emoticon-terra.png"/></button>
+          <button id="air">Ar <img id="ar" src="/imgs/emoticons/emoticon-ar.png"/></button>
+          <button id="theFifthElement">O 5º Elemento <img id="quintoElemento" src="/imgs/emoticons/emoticon-quintoelemento.png"/></button>
+        </div>
+        <br>
+        <div id="memes-prontos">
+          <h3>ARQUIVO DE MEMES</h3>
+          <img id="meme-1" src="/imgs/meme1.png"/>
+          <img id="meme-2" src="/imgs/meme2.png"/>
+          <img id="meme-3" src="/imgs/meme3.png"/>
+          <img id="meme-4" src="/imgs/meme4.png"/>
+          <img id="meme-5" src="/imgs/meme5.png"/>
+          <img id="meme-6" src="/imgs/meme6.png"/>
+          <img id="meme-7" src="/imgs/meme7.png"/>
+          <img id="meme-8" src="/imgs/meme8.png"/>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html> 
