@@ -8,11 +8,15 @@ body {
 .container {
   background-color: white;
   border: 1px;
-  border-color: slateblue;
+  border-color: black;
   border-style: solid;
-  height: 320px;
   margin: 2px;
   padding-top: 10px;
+}
+
+.container, img {
+  background-size: 320px 320px;
+  height: 320px;
   width: 320px;
 }
 
