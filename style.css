@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url(https://st3.depositphotos.com/11911276/19388/v/600/depositphotos_193889550-stock-video-abstract-background-with-animated-circular.jpg);
+    background-size: cover;
+    opacity: .6;
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 90px;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.container {
+    margin: auto;
+    border: solid, black;
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    z-index: 1;
+} 
