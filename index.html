@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Meme generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+
+    <label
+      >Text:
+      <input type="text" id="text-input" size="2" maxlength="60" />
+    </label>
+    <br /><br />
+
+    <label
+    >Photo:
+    <input type="file" id="meme-insert" size="2" accept="image/*" onchange="loadFile(event)">
+    </label>
+    <br /><br />
+
+    <div id="meme-image-container" class="meme-image-container">
+        <img src="" id="meme-image" class="meme-image" alt=""></img>
+        <p id="meme-text" class="meme-text"></p>
+    </div>
+
+    <div class="elements">
+        <label
+        >Change style:<br><br>
+        <button id="fire" class="fire"><strong>FIRE</strong></button>
+        <button id="water" class="water"><strong>WATER</strong></button>
+        <button id="earth" class="earth"><strong>EARTH</strong></button>
+        </label>
+    </div>
+
+    <div class="meme-options">
+      <legend>Ready-made memes:</legend>
+      <br><br>
+      <input type="image" id="meme-1" class="image-1" src="imgs/meme1.png" alt="well thought">
+      <input type="image" id="meme-2" class="image-2" src="imgs/meme2.png" alt="success">
+      <input type="image" id="meme-3" class="image-3" src="imgs/meme3.png" alt="Cris">
+      <input type="image" id="meme-4" class="image-4" src="imgs/meme4.png" alt="arg">
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
