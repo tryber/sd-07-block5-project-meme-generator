@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G♥rdin Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho da Página -->
+    <header>
+        <img class="logo"
+            src="/imgs/logo.png"
+            alt="Logotipo do Site. O logotipo é uma foto do Gordinho!">
+        <h1 class="title">G<span class="heart">♥</span>rdin Generator</h1>
+    </header>
+    <!-- Corpo da Página -->
+    <main>
+        <!-- Esta seção serve para delimitar a área de edição dos Memes. Ela ocupa toda a altura necessária para preencher a tela-->
+        <section class="edit">
+            <!-- Local onde será digitado o teto que aparecerá no Meme-->
+            <div class="box">
+                <p>Escreva seu texto aqui:</p>
+                <input type="text"
+                        id="text-input"
+                        class="input"
+                        placeholder="Digite aqui o texto do seu meme"
+                        maxlength="60">
+            </div>
+            <!-- Local para selecionar a imagem de fundo do Meme-->
+            <div class="box">
+                <p>Escolha sua imagem:</p>
+                <!--
+                    A solução para estilizar o input type="file" foi adaptada do site:
+                    https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/
+
+                    O interessante é que, se for uma entrada de arquivo, funciona como um evento de clique,
+                    resultando na abertura de um navegador de arquivos. Isso é ótimo para elaborar uma
+                    solução semântica.
+
+                    Portanto, pressionar qualquer um desses dois elementos nos dá o mesmo resultado. Isso
+                    significa que a parte mais difícil está… resolvida! Sem JavaScript, sem outras soluções
+                    complexas como o rastreamento da posição do cursor, apenas essas duas linhas.
+                -->
+                <input id="meme-insert"
+                        class="inputfile"
+                        type="file"
+                        name="file"
+                        accept="image/*">
+                <label id="label1" for="meme-insert" class="button">Selecione sua imagem</label>
+                <!--
+                <button id="meme-insert" class="button">Selecione sua imagem</button>
+                -->
+            </div>
+            <!-- Local para selecionar o tipo de borda do Meme -->
+            <div class="box">
+                <p>Escolha o tipo de borda:</p>
+                <!-- Essa div seleciona todo o espaço disponível para poder justificar as imagens -->
+                <div class="mini-image-container">
+                    <button id="air" class="button-air">
+                        <img src="/imgs/air.png"
+                                alt=""
+                                class="mini-image air">
+                    </button>
+                    <button id="fire" class="button-fire">
+                        <img src="/imgs/fire.png"
+                                alt=""
+                                class="mini-image fire">
+                    </button>
+                    <button id="water" class="button-water">
+                        <img src="/imgs/water.png"
+                                alt=""
+                                class="mini-image water">
+                    </button>
+                    <button id="earth" class="button-earth">
+                        <img src="/imgs/earth.png"
+                                alt=""
+                                class="mini-image earth">
+                    </button>
+                </div>
+            </div>
+            <!-- Local para selecionar Memes pré prontos -->
+            <div class="box">
+                <p>Escolha um Meme Pré pronto:</p>
+                <!-- Essa div seleciona todo o espaço disponível para poder justificar as imagens -->
+                <div class="mini-image-container">
+                    <img src="/imgs/meme1.png"
+                            alt=""
+                            id="meme-1"
+                            class="mini-image air">
+                    <img src="/imgs/meme2.png"
+                            alt=""
+                            id="meme-2"
+                            class="mini-image air">
+                    <img src="/imgs/meme3.png"
+                            alt=""
+                            id="meme-3"
+                            class="mini-image air">
+                    <img src="/imgs/meme4.png"
+                            alt=""
+                            id="meme-4"
+                            class="mini-image air">
+                </div>
+            </div>
+        </section><!-- Esse comentário faz com que nao apareça o enter que é dado no HTML (que é representado como um espaço na página)
+            Na prática, seria como se fosse escrito o código assim: </section><section class="content">
+
+            Esse local é a área onde ficará os elementos que formarão os Memes. Ela ocupa 100% da altura e largura disponíveis
+        --><section class="content">
+            <section class="content">
+            <!-- Essa div é usada somente para desenhar o celular na tela -->
+            <div class="phone">
+                <!-- Arqui é representada a tela do celular. É onde aparecerá a imagem -->
+                <!-- Ela tem o fundo branco e a borda preta. -->
+                <div id="meme-image-container" class="image-container">
+                    <!-- Essa div é para garantir o tamanho da imagem, ela ocupa 100% da altura da div pai
+                        Ainda, essa div serve para inserir a TAG IMG
+                    -->
+                    <div id="meme-image" class="background-image">
+                        <!--
+                            A TAG img será inserida via JS, pois se inserida aqui (sem um src) fica aparecendo o ícone de imagem quebrada e o texto da ALT
+                            <img id="img-meme-image" class="background-image" src="" alt="Imagem de fundo do meme">
+                        -->
+                        <img src="" alt="">
+                    </div>
+                    <!-- Local onde será inserido o texto digitado no input text-->
+                    <p id="meme-text" class="meme-text">
+
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Rodapé da Página -->
+    <footer>
+        <img src="/imgs/logo_trybe.png" alt="Logotipo da Trybe">
+        <h2 class="footer-emphasis">Contato</h2>
+        <p class="footer-paragraph">
+            Luciano Berchon<br>
+            berchon@gmail.com<br>
+            LinkeIn<br>
+            github
+        </p>
+    </footer>
+</body>
+</html>
