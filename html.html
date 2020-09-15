@@ -1,61 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meme Generator</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <href="style.css">
+        <link href="style.css" rel="stylesheet">
+        <title>Meme Generator</title>
 </head>
+
 <body>
-    <main>
-        <!-- Esta seção serve para delimitar a área de edição dos Memes. Ela ocupa toda a altura necessária para preencher a tela-->
-        <section class="edit">
-            <!-- Local onde será digitado o teto que aparecerá no Meme-->
-            <div class="box">
-                <p>Escreva seu texto aqui:</p>
-                <input type="text"
-                        id="text-input"
-                        class="input"
-                        placeholder="Digite aqui o texto do seu meme"
-                        maxlength="60">
-            </div>
-            <div class="box">
-                <p>Escolha sua imagem:</p>
-               
-                <input id="meme-insert"
-                        class="inputfile"
-                        type="file"
-                        name="file"
-                        accept="image/*">
-                <label id="label1" for="meme-insert" class="button">Selecione sua imagem</label>
-                
-            </div>
-       
-                </div>
-            </div>
-          
-               
-     
-            <div class="phone">
-                <!-- Arqui é representada a tela do celular. É onde aparecerá a imagem -->
-                <!-- Ela tem o fundo branco e a borda preta. -->
-                <div id="meme-image-container" class="image-container">
-                    <!-- Essa div é para garantir o tamanho da imagem, ela ocupa 100% da altura da div pai
-                        Ainda, essa div serve para inserir a TAG IMG
-                    -->
-                    <div id="meme-image" class="background-image">
-                      
-                        <img src="" alt="">
-                    </div>
-                    <!-- Local onde será inserido o texto digitado no input text-->
-                    <p id="meme-text" class="meme-text">
-
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-
+  <script src = 'js.js'></script>
+    <center>
+        <h1>Meme Generator</h1>
+        <div class="text">
+            <h2>Texto:</h2>
+            <input
+              type="text"
+              name="text-input"
+              id="text-input"
+              maxlength="60"
+              class="input-text"
+            />
+          </div>
+          <div id="meme-image-container" class="meme-image-container">
+            <div id="meme-text" class="meme-text"></div>
+            <img
+              id="meme-image"
+              class="meme-image"
+              src="meme5.jpg"
+              width="50%"
+            />
+          </div>
+        
+    </center>
 </body>
+
 </html>
