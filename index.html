@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <form class="form">
+            <label for="text-input">Texto do MeMe</label>
+            <input type="text" id="text-input" maxlength="60">
+            <br>
+            <label for="meme-insert">Imagem do meme</label>
+            <input type="file" accept="image/*" id="meme-insert">
+       </form>
+    </nav>
+   <section>
+        <div id="meme-image-container" class="div-meme">
+            <img id="meme-image">
+            <p id="meme-text" class="texto-na-foto"></p>
+        </div>
+   </section>
+    <script src = "script.js"></script>
+</body>
+</html>

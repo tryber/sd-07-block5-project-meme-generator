@@ -1,0 +1,20 @@
+.div-meme {
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+    /* box-sizing: border-box; */
+    display: inline-block;
+    position: relative;
+    background-color: white;
+}
+.div-meme img {
+    width: 200px;
+    height: 200px;
+}
+.texto-na-foto {
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 10px;
+}
