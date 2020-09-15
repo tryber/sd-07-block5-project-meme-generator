@@ -1,0 +1,21 @@
+.meme-image-container {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  height: 500px;
+  width: 500px;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  text-shadow: black 5px 5px 5px;
+}
+
+.meme-image {
+  height: 500px;
+  position: absolute;
+  width: 500px;
+}
