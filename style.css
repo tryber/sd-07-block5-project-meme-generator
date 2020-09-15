@@ -1,26 +1,385 @@
-body {
-    background-color:whitesmoke;
-    color:blue ;
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-
-}
-
-h1 {
-    font-family: fantasy;
-    font-weight: normal;
-    font-size: 90px;
-    margin: 10px;
-    color: blue;
-}
-
-.container {
-    margin: auto;
-    border: solid, black;
-    text-align: center;
-    background-color: white;
+footer {
+    background-color: rgb(18 , 18 , 22);
+    color: white;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  footer img {
+    float: right;
+    height: 70px;
+  }
+  
+  .background-image {
+    height: 100%; /* Ocupa 100% da altura da tela do celular */
+  }
+  
+  .background-image img {
+    height: 100%; /* Ocupa 100% da altura da tela do celular */
+  }
+  
+  body , html {
+    background-color: rgb(230 , 230 , 230);
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: 0;
+    min-width: 1250px;
+  }
+  
+  .box {
+    background-color: rgb(244 , 245 , 249);
+    border-color: rgb(78 , 144 , 253);
+    border-radius: 8px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    height: 100px;
+    margin: 0 auto 25px;
+    padding: 0 10px;
     width: 350px;
-    height: 450px;
-    z-index: 1;
-} 
+  
+    /* border-top-color: rgb(78 , 144 , 253); */
+  }
+  
+  /*
+  Seleciona o terceiro e o quarto filho para mudar a altura
+  */
+  
+  .box:nth-child( 3 ) , .box:nth-child( 4 ) {
+    height: 145px;
+  }
+  
+  .box p {
+    color: rgb(78 , 144 , 253);
+    font-size: 15px;
+  }
+  
+  button {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button-air {
+    background-color: white;
+  }
+  
+  .button-fire {
+    background-color: red;
+  }
+  
+  .button-water {
+    background-color: blue;
+  }
+  
+  .button-earth {
+    background-color: green;
+  }
+  
+  .button {
+    cursor: pointer; /* "hand" cursor */
+    display: inline-block; /* A TAG label é inline */
+    line-height: 35px; /* Centraliza o texto na vertical */
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .button , .input {
+    background-color: white;
+    border-color: rgb(78 , 144 , 253);
+    border-radius: 8px;
+    border-style: solid;
+    color: rgb(78 , 144 , 253);
+    font-size: 16px;
+    height: 35px;
+    width: 340px;
+  }
+  
+  .button:active {
+    left: 2px;
+    position: relative;
+    top: 1px;
+  }
+  
+  .button:focus , .input:focus {
+    border-color: rgb(78 , 144 , 253);
+    border-radius: 8px;
+    border-style: solid;
+  
+    /* O outline não deve ser usado sozinho, por isso que tem a configuração de bordas
+    acima. Na prática tirar as configurações de bordas acima não afetaria nada, mas
+    colocá-las é uma boa prática
+    */
+    outline: 0;
+  }
+  
+  .button:hover {
+    background-color: rgb(78 , 144 , 253);
+    color: white;
+    transition: 0.5s;
+  }
+  
+  /*
+  Estilizando o <label>
+  Como o <label>elemento é visualmente o botão, você pode usar todos os seus recursos CSS
+  criativos nele.
+  */
+  
+  /*
+  Acessibilidade
+  Como você sabe que um elemento do site pode ser pressionado ? Em primeiro lugar, o
+  elemento deve comunicar a sensação de que você pode tocar ou clicar nele. Em segundo
+  lugar, o ícone do cursor deve mudar para um apropriado ao passar o mouse sobre o
+  elemento. O primeiro que resolvemos anteriormente, vamos resolver o último, porque
+  os rótulos não acionam uma mudança de cursor por padrão:
+  .inputfile + label {
+      cursor: pointer; /* "hand" cursor
+  }
+  */
+  
+  /*
+  Navegação pelo teclado
+  Se os usuários não conseguem navegar em seu site usando apenas um teclado, você está
+  fazendo algo errado. Ocultar a própria entrada de maneira correta era uma coisa, a
+  outra é indicar quando o elemento está focado , ou seja, renderizar .inputfile:focus
+  no label:
+  -webkit-focus-ring-color auto 5pxé um pequeno truque para obter looks de contorno
+  padrão no Chrome, Opera e Safari. O estilo na linha acima é para navegadores que
+  não entendem a
+  -webkit…expressão.
+  .inputfile:focus + label {
+      outline: 1px dotted #000;
+      outline: -webkit-focus-ring-color auto 5px;
+  }
+  */
+  
+  .content {
+    display: inline-block;
+  
+    /* Esse 25px é pq q classe edit tem um padding-top de 25px. O 100% pega a área
+    disponível e aí falta 25px do padding
+    */
+    height: calc(100% + 25px);
+    text-align: center;
+    vertical-align: top;
+  
+    /* O 405px é p/ descontar a largura de 400px da classe edit mais 3px da largura de
+    borda. Os 2px restantes são p/ garantir que não vai passar to tamanho total da tela
+    (isso fará a div content ficar abaixo da div edit
+    */
+    width: calc(100% - 405px);
+  }
+  
+  .edit {
+    background-color: white;
+    border-right: rgb(78 , 144 , 253);
+    border-right-style: solid;
+    border-width: 3px;
+  
+    /* O fundo branco da classe edit apaga a sombra do cabeçalho, por isso é colocada
+    essa sombra interna para emular a sombra do cabeçalho
+    */
+    box-shadow: inset 0 7px 4px -3px rgba(0 , 0 , 0 , 0.25);
+    display: inline-block;
+    height: 100%;
+    padding-top: 25px;
+    width: 400px;
+  
+    /* border-right-color: rgb(78 , 144 , 253); */
+  }
+  
+  .footer-emphasis {
+    color: rgb(219 , 221 , 191);
+    font-size: 14px;
+    font-weight: 600; /* bold; */
+    line-height: 14px;
+    margin: 0 150px 0 0;
+  }
+  
+  .footer-paragraph {
+    color: rgb(136 , 137 , 130);
+    font-size: 12px;
+    margin: 4px 150px 0 0;
+  }
+  
+  header {
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0 , 0 , 0 , 0.25);
+    height: 70px;
+    width: 100%;
+  }
+  
+  .heart {
+    color: rgb(77 , 137 , 235);
+  }
+  
+  .image-container {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 380px; /* Altura da tela do celular */
+    margin: auto;
+    width: 650px; /* Largura da tela do celular */
+  }
+  
+  /*
+  Escondendo o <input>
+  Primeiro, precisamos esconder o patinho feio. Propriedades CSS tais como display: noneou
+  visibility: hidden se não trabalhar fora. Os motivos são: o valor de entrada não será
+  enviado ao servidor no envio do formulário; a entrada será excluída fora da ordem das
+  guias (você deseja que seu site esteja acessível, certo?). Eu configurei uma combinação
+  de propriedades / valores CSS para ocultar a entrada visualmente, mas mantê-la visível
+  para o navegador:
+  Vejo que você está se perguntando por que width e heightestá definido como, em 0.1px
+  em vez de apenas 0px. Definir os valores da propriedade como zero acaba jogando o
+  elemento fora da tab party em alguns navegadores. E position: absolute garante que o
+  elemento não interfira com os elementos irmãos.
+  */
+  
+  .inputfile {
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0.1px;
+    z-index: -1;
+  }
+  
+  .logo {
+    float: left;
+    height: 70px;
+    margin: 0 10px;
+  }
+  
+  main {
+  
+    /* Os 70px são da altura do cabeçalho e os 120px da altura do rodapé */
+    height: calc(100% - 70px - 120px);
+    min-height: 615px;
+    padding-bottom: 25px;
+    width: 100%;
+  }
+  
+  .meme-text {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+  
+    /* Não deixa o texto passar to tamanho máximo definido (que é o tamanho da tela
+    do celular menos as margins
+    */
+    max-width: 100%;
+    position: relative;
+    text-shadow: 5px 5px 5px black;
+  
+    /* Faz com que o texto fique em cima da imagem. Note que 380px é a Altura da Tela
+    do Celular.
+    */
+    top: -380px;
+  
+    /* força quebra de linha, caso o texto digitado não tenha espaço entre as palavras */
+    word-wrap: break-word;
+    -webkit-text-stroke-color: black; /* Define a cor preta para a borda da letra */
+    -webkit-text-stroke-width: 1px; /* define a borda da letra de 1px */
+  }
+  
+  /* Coloca bordas nas miniaturas das bordas
+  */
+  
+  .air {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .fire {
+    background-color: red;
+    border-color: red;
+    border-style: dashed;
+    border-width: 3px;
+  }
+  
+  .water {
+    background-color: blue;
+    border-color: blue;
+    border-style: double;
+    border-width: 5px;
+  }
+  
+  .earth {
+    background-color: green;
+    border-color: green;
+    border-style: groove;
+    border-width: 6px;
+  }
+  
+  /* Define o tamanho das miniaturas */
+  .mini-image {
+    height: 75px;
+    transition: 0.2s;
+    vertical-align: middle;
+    width: 75px;
+  }
+  
+  .mini-image:hover {
+    cursor: pointer;
+    height: 80px;
+    transition: 0.2s;
+    width: 80px;
+  }
+  
+  .mini-image-container {
+    display: inline-block;
+    height: 100px;
+    text-align: justify; /* Esse justify faz com que as imagens fiquem justificadas */
+    width: 100%;
+  }
+  
+  /* Insere um elemento depois da última imagem ocupando 100% da largura disponível.
+  Isso força uma quebra de linha, fazendo com que as imagens fiquem justificadas
+  */
+  
+  .mini-image-container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .phone {
+    background-color: white;
+    border-radius: 70px;
+    box-shadow: 0 0 40px 10px rgba(0 , 0 , 0 , 0.15);
+    height: 400px;
+  
+    /* coloca o lado ESQUERDO do celular bem no meio da tela, isso deixa o celular
+    mais para a direita
+    */
+    left: 50%;
+  
+    /* Metade do valor da Largura - Puxa o celular q estava mais para a DIREITA
+    centralizando-o na horizontal
+    */
+    margin-left: -400px;
+  
+    /* Metade da valor da Altura - Puxa o celular q estava mais para a BAIXO
+    centralizando-o na horizontal
+    */
+    margin-top: -200px;
+    padding-top: 10px;
+    position: relative;
+  
+    /* coloca o lado de CIMA do celular bem no meio da tela, isso deixa o celular
+    mais para baixo
+    */
+    top: 50%;
+    width: 800px;
+  }
+  
+  .title {
+    display: inline-block;
+    line-height: 70px; /* Faz com o o título fique centralizando na vertical */
+    margin: 0 10px;
+  }
+
+  
