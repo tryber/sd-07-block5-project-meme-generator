@@ -1,0 +1,110 @@
+body {
+  font-family: Josefin Sans, sans-serif;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+.text-input {
+  margin-top: 10px;
+}
+
+.meme-insert {
+  margin-top: 15px;
+}
+
+.container {
+  height: 600px;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin-top: 10px;
+  position: relative;
+  width: 400px;
+}
+
+.meme-image {
+  height: 400px;
+  position: absolute;
+  width: 400px;
+  z-index: 1;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  left: 185px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 80%;
+  transform: translate(-50% , -50%);
+  width: 88%;
+  word-break: break-word;
+  z-index: 2;
+}
+
+.label-styles {
+  display: block;
+}
+
+.div-buttons {
+  display: block;
+  height: 95px;
+  margin-top: 10px;
+  width: 450px;
+}
+
+.div-preview-memes {
+  display: inline-block;
+  height: 110px;
+  margin-top: 25px;
+  text-align: left;
+  width: 450px;
+}
+
+.label-mini-memes {
+  display: block;
+}
+
+.meme1 , .meme2 , .meme3 , .meme4 {
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 70px;
+}
+
+.buttons {
+  font-size: 20px;
+  font-weight: 900;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.fire {
+  background-color: rgb(255 , 0 , 0);
+  border: 3px dashed red;
+}
+
+.water {
+  background-color: rgb(0 , 0 , 255);
+  border: 5px double blue;
+}
+
+.earth {
+  background-color: rgb(0 , 128 , 0);
+  border: 6px groove green;
+}

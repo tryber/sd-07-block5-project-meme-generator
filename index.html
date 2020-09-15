@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MEME GENERATOR</h1>
+    <div id = 'container' class="container">
+        <label class="label">Texto:
+        <input type="text" id='text-input' class="text-input" maxlength='60' >
+      </label><br>
+
+      <label class="label">Imagem:
+        <input type="file" id='meme-insert' class="meme-insert" accept='image/*' onchange='openFile(event)'>
+        <img id='output' src="">
+      </label>
+    <div id = 'meme-image-container' class="meme-image-container" >
+        <img id='meme-image' class="meme-image" >
+        <div id='meme-text' class="meme-text" > text Meme</div>
+
+    </div>
+    <div id='div-buttons' class="div-buttons" >
+        <label class="label-styles" id ='styles'>
+            Estilos Customizados:
+        </label>
+  <button class="buttons fire" id='fire'>Fire</button>
+  <button class="buttons water" id='water'>Water</button>
+  <button class="buttons earth" id='earth'>Earth</button>
+
+    </div>
+    <div id='preview-memes' class="div-preview-memes" >
+        <label class="label-mini-memes" id ='mini-memes'>
+            Memes pré prontos:
+        </label>
+    <img id='meme-1' class="meme1" src="/imgs/meme1.png" alt="meme1 Rubens Barrichello">
+    <img id='meme-2' class="meme2" src="/imgs/meme2.png" alt="meme2 Side Eyeing Chloe">
+    <img id='meme-3' class="meme3" src="imgs/meme3.png" alt="meme3 No God, Please No!">
+    <img id='meme-4' class="meme4" src="imgs/meme4.png" alt="meme4 Roll Safe">
+     </div>
+</div>
+ <script src="./script.js"></script>
+</body>
+</html>
