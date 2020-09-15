@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto_Meme_Generator_Leonardo_Sardinha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <strong><h1>MEME GENERATOR</h1></strong>
+    </header>
+    <main>
+      <form>
+        <div>
+          <p class="side-by-side"><strong>Texto:</strong></p>
+          <input
+            type="text"
+            id="text-input"
+            class="side-by-side"
+            maxlength="60"
+          />
+        </div>
+        <div>
+          <p class="side-by-side"><strong>Foto:</strong></p>
+          <input
+            type="file"
+            id="meme-insert"
+            class="side-by-side"
+            onchange="loadFile(event)"
+          />
+        </div>
+      </form>
+      <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <img
+          id="meme-image"
+          src=""
+          alt="Paisagem Natural"
+          width="400"
+          height="400"
+        />
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

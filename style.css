@@ -1,0 +1,25 @@
+.side-by-side {
+  display: inline-block;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  z-index: 0;
+}
+
+#meme-image {
+  z-index: 1;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 2;
+  margin-top: 200px;
+}
