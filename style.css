@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: rgb(144 , 144 , 192);
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+}
+
+.upload-image {
+  color: rgb(144 , 144 , 192);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.image-container {
+  background-color: white;
+  border: solid 1px black;
+  height: 300px;
+  margin: auto;
+  margin-top: 11px;
+  position: relative;
+  width: 300px;
+}
+
+.meme-text {
+  color: white;
+  font-family: Impact, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  height: 33%;
+  margin-left: 1px;
+  margin-top: 195px;
+  max-width: 100%;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  width: 98%;
+  word-break: break-all;
+}
+
+.meme-image {
+  height: 100%;
+  width: 100%;
+}
+
+.label-text-input {
+  color: rgb(144 , 144 , 192);
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.custom-styles {
+  color: rgb(144 , 144 , 192);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.ready-to-use {
+  background-color: white;
+  color: rgb(144 , 144 , 192);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+}
+
+.fire {
+  background-color: red;
+  padding: 5px;
+}
+
+.water {
+  background-color: blue;
+  padding: 5px;
+}
+
+.earth {
+  background-color: green;
+  padding: 5px;
+}
+
+.image-memes {
+  height: 23%;
+  width: 23%;
+}
+
+.ready-memes {
+  display: inline;
+}
+
+.ready-title {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
+    <section>
+        <div id="input" class="input">
+          <label for="text-input" class="label-text-input"><strong>Type your text here: </strong>
+            <input type="text" id="text-input"></br>
+          </label>
+          <label for="meme-insert" style="cursor: pointer;" class="upload-image">Upload Image
+            <input type="file"  accept="image/*" name="image" id="meme-insert" class="meme-insert" onchange="LoadMemeImage(event)" style="display: none;">
+          </label>
+        </div>
+        <div id="meme-image-container" class="image-container">
+            <div id="meme-text" class="meme-text"></div>
+            <img id="meme-image" class="meme-image"/>
+        </div>
+        <div class="custom-styles">
+          <h3>Custom Styles:</h3>
+          <input type="button" value='Fire' id="fire" class="fire">
+          <input type="button" value='Water' id="water" class="water">
+          <input type="button" value='Earth' id="earth" class="earth">
+        </div>
+        <h3 class="ready-title">Memes Ready to ready-to-use:</h3>
+        <div class="ready-to-use">
+          <div id="meme-1" class="ready-memes">
+            <img class="image-memes" src="/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme1.png" alt="thinker frog">
+          </div>
+          <div id="meme-2" class="ready-memes">
+            <img class="image-memes" src="/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme2.png" alt="lol">
+          </div>
+          <div id="meme-3" class="ready-memes">
+            <img class="image-memes" src="/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme3.png" alt="Homer being homer">
+          </div>
+          <div id="meme-4" class="ready-memes">
+            <img class="image-memes" src="/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme4.png" alt="Oh my god">
+          </div>
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
