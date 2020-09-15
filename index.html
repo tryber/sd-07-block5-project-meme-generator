@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="en" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto 03 - Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header center">
+      <h1>Meme Generator</h1>
+    </header>
+
+    <div class="background">
+
+      <!-- MEME GENERATOR CONTENT -->
+      <section class="meme-generator center">
+        
+        <!-- INPUT TEXT -->
+        <div class="inputs">       
+          <label for="file" class="label-text">Text:</label>
+          <input
+            type="text"
+            id="text-input"
+            maxlength="60"
+            placeholder="Your text here..."
+            class="form-text"
+          />
+        </div>
+
+        <!-- UPLOAD IMAGE -->
+        <div class="inputs">
+          <label for="file"class="label-text">Image:</label>
+          <input type="file" id="meme-insert" class="input-text"/>
+        </div>
+
+        <!-- MEME BOX -->
+        <div id="meme-image-container" class="container-content">
+          <img src="" id="meme-image" alt="Meme image" class="imageBox">
+          <span id="meme-text" class="textBox"></span>          
+        </div>      
+      </section>
+      
+      <!-- OPTIONS -->
+      <section class="buttons center">
+        <button id="fire" class="btn-fire btn-border"><img src="fire.png" alt="fire icon"><span>FIRE</span></button>
+        <button id="water" class="btn-water btn-border"><img src="water.png" alt="water icon"><span>WATER</span></button>
+        <button id="earth" class="btn-earth btn-border"><img src="earth.png" alt="earth icon"><span>EARTH</span></button>
+        <div class="meme-image">
+          <img src="imgs/meme1.png" alt="Meme 1" id="meme-1">
+          <img src="imgs/meme2.png" alt="Meme 2" id="meme-2">
+          <img src="imgs/meme3.png" alt="Meme 3" id="meme-3">
+          <img src="imgs/meme4.png" alt="Meme 4" id="meme-4">
+        </div>
+        
+      </section>
+
+    </div>
+    
+    <footer class="footer-content">© 2020 - Developed by André Menezes</footer>
+
+    <script src="script.js"></script>
+    <script>
+      insertImage();
+      insertText();
+      borderFire();
+      borderWater();
+      borderEarth();
+      meme1();
+      meme2();
+      meme3();
+      meme4();
+    </script>
+  </body>
+</html>
