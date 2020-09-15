@@ -1,0 +1,37 @@
+.meme-image-container-style{
+    position:relative;
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+.meme-text-style{
+    text-shadow:5px 5px 5px black; 
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 30px;  
+}
+.meme-image-style{
+    max-width: 400px;
+    height: 400px;
+}
+.threeButtom{
+    position: absolute;
+    bottom: 0;
+}    
+.threeButtom div {
+    display:inline-block;
+}
+
+.fire-style{
+    background-color: rgb(255,0,0);
+}
+
+.water-style{
+    background-color: rgb(0,0,255);
+}
+
+.earth-style{
+    background-color: rgb(0,128,0);
+}

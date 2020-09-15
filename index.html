@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form>
+        <label>Digite seu texto:</label>
+        <input type="text" id="text-input" maxlength="60"  placeholder="Limite de caracteres  60">
+        <label>Escolha uma imagem</label>
+        <input type="file" id="meme-insert">
+    </form>
+    <section id="meme-image-container" class="meme-image-container-style">
+        <img id="meme-image" class="meme-image-style" src="#" />
+        <div id="meme-text" class="meme-text-style"></div>
+        <div class="threeButtom">
+        <button id="fire"  class="fire-style" onclick="">Fire </button>
+        <button id="water" class="water-style" onclick="">Water </button>
+        <button id="earth" class="earth-style" onclick="">Earth </button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
