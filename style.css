@@ -1,0 +1,75 @@
+body {
+  background-image: radial-gradient(circle , lightgray 30% , green , black);
+  text-align: center;
+}
+
+.memeImageContainer {
+  background: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+
+label {
+  display: block;
+  margin: 3px;
+}
+
+.memeText {
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 5px 5px 5px black;
+  top: 250px;
+  width: 80%;
+}
+
+.memeImage {
+  height: 400px;
+  left: 0;
+  position: absolute;
+  width: 400px;
+}
+
+button {
+  color: white;
+  height: 40px;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+  width: 100px;
+}
+
+div img {
+  display: inline-block;
+  height: 120px;
+  margin-left: 30px;
+  position: relative;
+  top: 50px;
+  width: 120px;
+}
+
+.btFire {
+  background-color: red;
+  border: 3px dashed black;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.btWater {
+  background-color: blue;
+  border: 5px double white;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.btEarth {
+  background-color: green;
+  border: 6px groove white;
+  font-style: italic;
+  font-weight: 600;
+}
