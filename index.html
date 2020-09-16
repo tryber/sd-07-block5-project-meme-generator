@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="tudo">
+    <h1>MEME GENERATOR</h1>
+    <form action="">
+      <div>
+        Texto:
+        <input
+          type="text"
+          onkeyup="changeText()"
+          id="text-input"
+          maxlength="60"
+        />
+      </div>
+      <div>
+        Foto: <input type="file" onchange="changeImage()" id="meme-insert" />
+      </div>
+    </form>
+    <div id="meme-image-container">
+      <div id="meme-text"></div>
+      <img src="" alt="" id="meme-image" />
+    </div>
+    <nav id="container-styles">
+      <h3>Opções de borda</h3>
+    <button id="fire" class="styleOptions" onclick="fire()">fire</button>
+    <button id="water" class="styleOptions" onclick="water()">water</button>
+    <button id="earth" class="styleOptions" onclick="earth()">earth</button>
+    </nav>
+    <div id="imgOptions">
+      <h3>Opções de imagens</h3>
+      <img src="./imgs/meme1.png" alt="meme do caixão" class="memeOptions">
+      <img src="./imgs/meme2.png" alt="meme do chapolin" class="memeOptions">
+      <img src="./imgs/meme3.png" alt="complexo" class="memeOptions">
+      <img src="./imgs/meme4.png" alt="meme do julius" class="memeOptions">
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+  </body>
+</html>
+
+<!-- URL.createObjectURL(event.target.files[0]); -->
