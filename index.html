@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meme Generator</h1>
+ <div id="header">
+   <h2>Type your text</h2> 
+    <input type="text" id="text-input" maxlength="60" onkeyup="limiteTheSize(this)"></input>
+</div>
+<div>
+    <input type="file" id="meme-insert" src="" accept="imgs/*">
+    <input type="file" id="fileElem" multiple accept="image/*" style="display:none">
+    <a href="#" id="fileSelect">Select some files</a> 
+    <div id="fileList">
+  <p>No files selected!</p>
+</div>
+</div>
+</div>
+<div id="meme-image-container" class="container">
+  <div id="meme-text" class="custom-text"> </div>
+  <img id="meme-image"  src="" class="custom-img">
+</div>
+<br>
+<button type="button" id="fire" class="fire" name="fire">Fire</button>
+<button type="button" id="water" class="water" name="water">Water</button>
+<button type="button" id="earth" class="earth" name="earth">Earth</button>
+<button type="button" id="reset" name="reset">Reset</button>
+<br>
+<br>
+<div class="memesPattern">
+  <img id="meme-1" class="meme-width" src="imgs/meme1.png" alt="Foto do norbit"">
+  <img id="meme-2" class="meme-width" src="imgs/meme2.png" alt="Foto do Chaves">
+  <img id="meme-3" class="meme-width" src="imgs/meme3.png" alt="Foto do Macaco">
+  <img id="meme-4" class="meme-width" src="imgs/meme4.png" alt="Foto do Sikera Júnior">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
