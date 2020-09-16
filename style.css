@@ -1,0 +1,26 @@
+.container {
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+
+.memeImage {
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+
+.memeText {
+    font-size: 30px;
+    color: white;
+    max-width: 450px;
+    position: absolute;
+    text-align: center;
+    word-break: break-all;
+    top: 340px;
+    z-index: 1;
+    text-shadow: 5px 5px 5px black;
+}

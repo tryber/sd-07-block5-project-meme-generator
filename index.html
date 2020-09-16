@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Memes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Meme Generator</h1>
+ 
+    <ul>
+     <li>Texto: <input type="text" id="text-input" placeholder="Digite aqui" maxlength="60">
+     <li>Imagem: <input type="file" id="meme-insert" accept="image/*">
+    </ul>
+    <div class ="container" id="meme-image-container">
+        <img class ="memeImage" id="meme-image" src="">
+        <p class ="memeText" id="meme-text"></p>
+    </div>
+    <button id="fire">Borda de fogo</button>
+    <button id="water">Borda de água</button>
+    <button id="earth">Borda de terra</button>
+    <script src="script.js"></script>
+</body>
+</html>
