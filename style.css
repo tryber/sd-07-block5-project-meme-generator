@@ -1,0 +1,95 @@
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+#meme-image {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+#meme-text {
+  color: white;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 30%;
+  box-shadow: 2px 2px 2px black;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 700;
+  height: 50px;
+  margin: 5px;
+  width: 100px;
+}
+
+#memesProntos {
+  display: block;
+  margin-top: 15px;
+}
+
+#meme-1 {
+  border: 2px solid rgb(60 , 12 , 150);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#meme-2 {
+  border: 2px solid rgb(60 , 12 , 150);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#meme-3 {
+  border: 2px solid rgb(60 , 12 , 150);
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+#meme-4 {
+  border: 2px solid rgb(60 , 12 , 150);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+section p {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 35px;
+}
+
+body {
+  display: block;
+  text-align: center;
+  background-color: rgb(184, 223, 199);
+}
+
+.insert-image {
+  margin-bottom: 15px;
+}
