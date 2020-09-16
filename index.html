@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arthur Nunes - sd-07 - Meme Generator</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="header">
+    <h1>MEME GENERATOR</h1>
+  </header>
+  <div class="spacer">&nbsp;</div>
+  <main>
+    <div class="meme-image-container-inputs">
+      <p>Digite seu texto aqui:</p>
+      <input type="text" maxlength="60" id="text-input" />
+      <br />
+      <p>Insira sua imagem aqui:</p>
+      <input type="file" accept="image/*" name="meme-insert" id="meme-insert" />
+    </div>
+    <div id="meme-image-container">
+      <div class="meme-image-container">
+        <p id="meme-text"></p>
+        <img id="meme-image" src="" alt="Imagem inserida pelo usuário para criação de meme" />
+        <p>Adicione sua imagem aqui através do botão abaixo, ou escolha algum de nossos memes pré prontos!</p>
+      </div>
+      <div class="elements-container">
+        <button class="fire" id="fire">FIRE</button>
+        <button class="water" id="water">WATER</button>
+        <button class="earth" id="earth">EARTH</button>
+      </div>
+      <div class="meme-thumb-container">
+        <img id="meme-1" class="meme-thumb" src="imgs/meme1.png" alt="" />
+        <img id="meme-2" class="meme-thumb" src="imgs/meme2.png" alt="" />
+        <img id="meme-3" class="meme-thumb" src="imgs/meme3.png" alt="" />
+        <img id="meme-4" class="meme-thumb" src="imgs/meme4.png" alt="" />
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

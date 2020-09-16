@@ -1,0 +1,146 @@
+body {
+  background-image: url('imgs/bg.png');
+  background-repeat: repeat;
+  font-family: Kufam, cursive;
+  text-shadow: 0 4px 3px rgba(0 , 0 , 0 , 0.4),
+    0 8px 13px rgba(0 , 0 , 0 , 0.1),
+    0 18px 23px rgba(0 , 0 , 0 , 0.1);
+
+}
+
+img[ src = '' ] {
+  display: none;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.spacer {
+  height: 95px;
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  box-shadow: 0 3px 7px 0 rgba(50 , 50 , 50 , 0.75);
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#meme-text {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  margin: auto;
+  max-width: 400px;
+  padding-top: 350px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  z-index: 10;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  color: white;
+  height: 500px;
+  max-height: 500px;
+  max-width: 500px;
+  position: relative;
+  width: 500px;
+  z-index: 0;
+}
+
+.meme-image-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.meme-image-container p {
+  color: black;
+  width: 400px;
+}
+
+.meme-image-container-inputs {
+  color: white;
+  padding-top: 630px;
+  position: absolute;
+  z-index: 1;
+}
+
+.meme-image-container-inputs p {
+  display: inline-block;
+}
+
+#meme-image {
+  color: black;
+  margin: 0;
+  max-height: 500px;
+  max-width: 500px;
+  position: absolute;
+  z-index: 0;
+}
+
+#meme-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.elements-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding-top: 110px;
+}
+
+.fire {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  margin: 10px;
+  padding: 5px;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  margin: 10px;
+  padding: 5px;
+}
+
+.earth {
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  margin: 10px;
+  padding: 5px;
+}
+
+.meme-thumb-container {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.meme-thumb {
+  border: 1px solid black;
+  margin: 16px;
+  width: 100px;
+}
