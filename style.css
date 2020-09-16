@@ -1,0 +1,19 @@
+.memeimageconteiner {
+  background-color: white;
+  border: solid 1px black;
+  height: 300px;
+  position: relative;
+  width: 300px;
+}
+
+.memetext {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+.memeimage {
+  height: 100%;
+  width: 100%;
+}
