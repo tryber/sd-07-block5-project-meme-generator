@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+        <hr>
+    </header>
+
+    <body>
+        <input id="text-input" maxlength="60" type="text" 
+        placeholder="Digite Aqui" size="70px">
+        <input type="file" id="meme-insert">
+
+        <div id="memes-container">
+            <button id="meme-1" style="background: url(./imgs/meme1.png); background-size: cover;"></button>
+            <button id="meme-2" style="background: url(./imgs/meme2.png); background-size: cover;"></button>
+            <button id="meme-3" style="background: url(./imgs/meme3.png); background-size: cover;"></button>
+            <button id="meme-4" style="background: url(./imgs/meme4.png); background-size: cover;"></button>
+        </div>
+
+        <div id="meme-image-container">
+
+            <img id="meme-image" src="" alt="">
+            
+            <p id="meme-text">
+                
+            </p>
+
+        </div>
+
+        <div id="div-buttons">
+            <button id="fire" style="background-color: red;">Fire</button>
+            <button id="water" style="background-color: blue;">Water</button>
+            <button id="earth" style="background-color: green;">Earth</button>
+        </div>
+
+    </body>
+
+    <script src="script.js"></script>
+</body>
+</html>
