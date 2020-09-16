@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Project meme generator</title>
+    </head>
+    <body>
+        <header>
+            <h1>MEME GENERATOR</h1>
+        </header>
+
+        <section>
+            <form>
+                <label for="text-input">Texto:</label>
+                <input type="text" id="text-input" name="text-input" maxlength="60">
+                <br>
+                <label for="meme-insert">Foto:</label>
+                <input type="file" id="meme-insert" name="meme-insert">
+            </form> 
+        </section>
+
+        <section id="meme-image-container">
+            <img id="meme-image" src="https://www.tca.com.br/wp-content/uploads/2017/10/Broken_Image.png" alt="Imagem de um meme como imagem principal"/>
+            <p id="meme-text"></p>
+        </section>
+
+        <section>
+            <button id="fire" class="buttons">FOGO</button>
+            <button id="water" class="buttons">ÁGUA</button>
+            <button id="earth" class="buttons">TERRA</button>
+        </section>
+
+        <section>
+            <img id="meme-1" src="imgs/meme1.png" alt="Meme pré prontos">
+            <img id="meme-2" src="imgs/meme2.png" alt="Meme pré prontos">
+            <img id="meme-3" src="imgs/meme3.png" alt="Meme pré prontos">
+            <img id="meme-4" src="imgs/meme4.png" alt="Meme pré prontos">
+        </section>
+
+        <script src="./script.js">
+        </script>
+    </body>
+</html>
