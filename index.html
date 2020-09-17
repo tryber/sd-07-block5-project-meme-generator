@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto Meme Generator - João Andrade Jr</title>
+</head>
+<body>
+  <header>
+    <h1>Projeto Meme Generator - João Andrade Junior</h1>
+  </header>
+  <section>
+    <div>
+      <div class="inputs">
+        <label for="texto">Digite o texto na caixa ao lado </label>
+        <input type="text" name="texto" id="text-input" maxlength="60">
+      </div>
+      <div class="inputs">
+        <label for="foto">Selecione a foto </label>
+        <input type="file" accept="image" name="foto" id="meme-insert">
+      </div>
+    </div>
+  </section>
+  <section id="meme-image-container" class="meme-image-container">
+    <img src="" alt="" id="meme-image">
+    <div class="meme-text" id="meme-text"></div>
+  </section>
+  <section>
+    <p>Estilos personalizados</p>
+    <div>
+      <div class="icones">
+        <button id="fire" class="padrao-icones fire">Fire 🔥</button>
+        <button id="water" class="padrao-icones water">Water 🌊</button>
+        <button id="earth" class="padrao-icones earth">Earth 🍀</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <p>Memes pré prontos</p>
+    <div>
+      <img src="./imgs/meme1.png" alt=""  class="pre-prontos" id="meme-1">
+      <img src="./imgs/meme2.png" alt=""  class="pre-prontos" id="meme-2">
+      <img src="./imgs/meme3.png" alt=""  class="pre-prontos" id="meme-3">
+      <img src="./imgs/meme4.png" alt=""  class="pre-prontos" id="meme-4">
+    </div>
+  </section>
+  <footer>
+    <div>
+      &copy; João Andrade Junior - Aluno Trybe/turma 7
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

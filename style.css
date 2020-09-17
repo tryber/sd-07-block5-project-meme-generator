@@ -1,0 +1,71 @@
+body {
+  background-color: darkolivegreen;
+  color: white;
+  font-family: Trebuchet, sans-serif;
+}
+
+h1 {
+  margin: 70px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 450px;
+  position: relative;
+  width: 450px;
+}
+
+.meme-image-container img {
+  height: 450px;
+  position: absolute;
+  width: 450px;
+  z-index: 1;
+}
+
+.meme-text {
+  bottom: 0;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  height: 150px;
+  margin: 10px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  width: 430px;
+  word-break: break-all;
+  z-index: 2;
+}
+
+.padrao-icones {
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  height: 40px;
+  margin: 30px 20px;
+  width: 100px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.pre-prontos {
+  border: 1px solid black;
+  height: 80px;
+  margin: 30px 20px;
+  width: 80px;
+}
+
+.inputs {
+  font-size: 20px;
+  margin: 20px;
+}
