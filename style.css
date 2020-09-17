@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:500,800,300');
+
+#meme-image-container {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 0;
+  z-index: 1;
+}
+
+#meme-image{
+  width: 498px;
+  height: 398px;
+  margin-top: 1px;
+  margin-left: 1px;
+  z-index: 2;
+}
+
+#meme-text{
+ text-shadow: 5px 5px 5px black;
+ font-size: 30px;
+ color: white;
+ margin: 300px 60px 60px 10px;
+ position: absolute ;
+ max-width: 500px;
+ z-index: 3;
+}
+
+.input-bt {
+  display: block;
+}
+
+.input-bt input{
+  float: right;
+  background-color: green;
+  font-size: medium;
+  color: white;
+}
+
+#text-input{
+  padding: 3px;
+  border: 1px solid black;
+  display: block;
+  margin: 10px;
+}
+
+.input-box{
+  margin: 5px;
+  padding: 5px;
+  background-color: lightgray;
+  height: 85px;
+}
+
+.file input {
+    min-width: 100px;
+    margin: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.file-custom:after {
+    content: " Escolha a imagem... ";
+}
+
+.file-custom{
+    background-color: white;
+    padding: 2px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    display: block;
+}
