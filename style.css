@@ -1,0 +1,24 @@
+#text-imput{
+    position: absolute;
+}
+
+#meme-image-container{
+    border: 1px solid black;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+}
+
+#meme-text{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+    z-index: 1;
+}
+
+#meme-image{
+    height: 300px;
+    position: relative;
+    width: 300px;
+}
