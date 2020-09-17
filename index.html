@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Meme Generator</h2>
+    </header>
+    <section class="main">
+        <section class="container">
+            <div class="row">
+                <span>Texto:</span>
+                <input type="text" id="text-input" maxlength="60" onkeyup="onLoadText()" />
+            </div>
+            <div class="row">
+                <span>Foto:</span>
+                <input type="file" id="meme-insert" onchange="onLoadImg()" />
+            </div>
+            <div id="meme-image-container" class="memeImageContainer">
+                <img id="meme-image" class="memeImage"/>
+                <div id="meme-text-container" class="memeTextContainer">
+                    <label id="meme-text" class="memeText"></label>
+                </div>
+            </div>
+            <div>
+                <label>Estilos customizados:</label>
+                <div>
+                    <button id="fire" class="btn fire" onclick="changeBorderFire()">
+                        <label>Fire <span> <img src="imgs/fogo.png" /> </span></label>
+                    </button>
+                    <button id="water" class="btn water" onclick="changeBorderWater()">
+                        <label>Water <span> <img src="imgs/agua.png" /> </span> </label>
+                    </button>
+                    <button id="earth" class="btn earth" onclick="changeBorderEarth()">
+                        <label>Earth <span> <img src="imgs/earth.png" /> </span> </label>
+                    </button>
+                </div>
+            </div>
+            <divs class="containers-memes">
+                <label>Memes pré prontos</label>
+                <div>
+                    <img id="meme-1" class="memes" src="imgs/meme1.png" onclick="selectImg1()"/>
+                    <img id="meme-2" class="memes" src="imgs/meme2.png" onclick="selectImg2()" />
+                    <img id="meme-3" class="memes" src="imgs/meme3.png" onclick="selectImg3()" />
+                    <img id="meme-4" class="memes" src="imgs/meme4.png" onclick="selectImg4()" />
+                </div>
+            </divs>
+        </section>
+    </section>
+</body>
+</html>

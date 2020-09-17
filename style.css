@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.btn {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 12px;
+    max-height: 40px;
+    padding-left: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+.container {
+    align-self: center;
+    margin-left: 40%;
+    max-width: 100%;
+    padding-top: 15px;
+}
+
+.earth {
+    background-color: green;
+}
+
+.fire {
+    background-color: red;
+}
+
+header {
+    align-items: center;
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.memeImageContainer {
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    height: 500px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    z-index: 1;
+}
+
+.memeTextContainer {
+    max-width: 100%;
+}
+
+.memeText {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: auto;
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+    top: 70%;
+    z-index: 3;
+}
+
+.memeImage {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.memes {
+    height: 60px;
+    padding-right: 15px;
+    width: 70px;
+}
+
+.row {
+    margin-top: 10px;
+    text-align: start;
+}
+
+.water {
+    background-color: blue;
+}
