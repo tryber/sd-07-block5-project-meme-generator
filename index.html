@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator - Trybe Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Meme Generator</h1>
+    <div class="inline content">
+      <section>
+        <p class="inline">Digite o texto: </p>
+        <input type="text" id="text-input" maxlength="60" size="35px">
+        <br>
+      </section>
+
+      <section id="meme-image-container" class="meme-image-container">
+        <div id="meme-text" class="meme-text">
+        </div>
+      </section>
+
+      <section>
+        Personalise a borda do seu MEME!<br>
+        <button type="button" id="fire" class="button button-fire"><i class="fa fa-fire fa-lg"></i> Fire</button>
+        <button type="button" id="water" class="button button-water"><i class="fa fa-tint fa-lg"></i> Water</button>
+        <button type="button" id="earth" class="button button-earth"><i class="material-icons">waves</i></i> Earth</button>
+      </section>
+
+    </div>
+
+    <div class="inline content">
+      <label for="meme-insert">Inserir uma imagem</label>
+      <input class="meme-insert" type="file" id="meme-insert" accept=".png, .jpg, .jpeg">
+      <p>ou escolha uma imagem pronta!</p>
+      <img src="./imgs/meme1.png" alt="Meme 01" id="meme-1" class="img-miniature">
+      <img src="./imgs/meme2.png" alt="Meme 02" id="meme-2" class="img-miniature">
+      <br>
+      <img src="./imgs/meme3.png" alt="Meme 03" id="meme-3" class="img-miniature">
+      <img src="./imgs/meme4.png" alt="Meme 04" id="meme-4" class="img-miniature">
+      <!-- images from http://www.i2clipart.com/
+      Meme 01: http://www.i2clipart.com/clipart-yaoming-meme-256x256-a94e
+      Meme 02: http://www.i2clipart.com/clipart-awesome-256x256-c2e7
+      Meme 03: http://www.i2clipart.com/clipart-facepalm-256x256-9673
+      Meme 04: http://www.i2clipart.com/clipart-derpina-256x256-d805
+      -->
+    </div>
+
+  </body>
+
+</html>
