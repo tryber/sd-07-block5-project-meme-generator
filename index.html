@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Titulo e subtitulo -->
+    <header class="header">
+        <h1 class="header_title"> MEME GENERATOR </h1>
+        <h2 class="header_subtitle">
+        Crie seu meme a partir de <b>JPG<b> <b>GIF</b> ou <b>PNG</b>
+    </h2>
+</header>
+    <!-- Inserir meme -->
+    <div>
+        <h2> Texto à ser inserido no meme: </h2> 
+            <input type = "text" name="text-input" id="text-input" maxlength="60" class="input-text">
+        <h2> Foto à ser inserida no meme: </h2>
+            <input type="file" alt="Submit" id="meme-insert">
+    </div>
+    
+       
+    <div id= "meme-image-container" class="meme-image-container">
+        <p id="meme-text" class="meme-text"></p> 
+        <img id="meme-image" class="meme-image">
+
+    </div>
+
+</div>
+<h3>Selecione um estilo de borda:</h3>
+<div id="divBorderButtons" class="div-border-buttons">
+    <button id = "fire" class="fire"><strong>🔥 Fire</strong></button>
+    <button id = "water" class="water"><strong>💧 Water</strong></button>  
+    <button id = "earth" class="earth"><strong>🌱 Earth</strong></button>
+</div>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
