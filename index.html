@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meme generator</h1>
+  </header>
+
+  <section>
+    <input type="text" maxlength="60" id="text-input"> <!--maxlength = https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength-->
+  </section>
+        
+  <section id="button-foto">
+    <p class="foto"><strong>Foto :</strong></p>
+    <!--
+    <button id="meme-insert">
+      Escolher
+    </button>
+    -->
+    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+    
+  </section>
+
+  <section id="meme-image-container">
+    <img id="meme-image">
+    <p id="meme-text"></p>
+  </section>
+<!--
+  <section id="buttons">
+
+  </section>
+
+  <section id="more-memes">
+
+  </section>
+-->
+  <script src="script.js"></script>
+
+</body>
+</html>
