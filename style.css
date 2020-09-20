@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(250, 246, 246);
+}
+
+h1 {
+  margin-bottom: 50px;
+  margin-left: 35%;
+}
+
+header {
+  background-color: aquamarine;
+  border: 2px solid black;
+  height: 97%;
+  position: absolute;
+  padding: 5px;
+  width: 35%;
+}
+
+header > * {
+  display: block;
+  margin: 25px 30px;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+footer {
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 99%;
+  position: absolute;
+  top: 910px;
+}
+
+.footer-content {
+  margin: auto;
+  width: 300px;
+}
+
+.footer-content button {
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.footer-content p {
+  color: -webkit-link;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.wrapper {
+  margin-left: 60px;
+}
+
+.input-text-meme {
+  margin-bottom: 40px;
+}
+
+.input-text-meme > *{
+  display: block;
+  margin-top: 1px;
+  width: 93%;
+  padding: 5px;
+}
+
+.input-image-meme > *{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  left: 55%;
+  padding: 0;
+  position: absolute;
+  top: 20%;
+  width: 400px;
+}
+
+.meme-image {
+  height: 400px;
+  position: absolute;
+  size: fill;
+  width: 400px;
+}
+
+.meme-text {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  overflow: inherit;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 260px;
+  width: 400px;
+}
+
+.text-format > * {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+
+.text-format-input {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  height: 25px;
+  width: 180px;
+}
+
+.border-format > section {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+
+.border-format > section * {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  height: 25px;
+  width: 180px;
+}
+
+button {
+  display: inline-block;
+  left: 390px;
+  margin-bottom: 50px;
+  margin-right: 35px;
+  margin-top: 10px;
+  width: 70px;
+}
+
+.buttons {
+  position: absolute;
+  top: 700px;
+  left: 250px;
+}
+
+.buttons input {
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: monospace;
+  height: 100px;
+  width: 150px;
+  margin-right: 50px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.change-border {
+  font-size: 25px;
+  left: 20%;
+  margin-bottom: 20px;
+  margin-left: 38%;
+  margin-top: 20px;
+  position: absolute;
+  top: 65%;
+
+}
+
+.images-proto > img {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.images-proto {
+  left: 20%;
+  margin-bottom: 25px;
+  margin-left: 40%;
+  position: absolute;
+  top: 5%;
+}
