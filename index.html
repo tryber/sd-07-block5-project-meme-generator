@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--As imagens foram tiradas do site https://br.freepik.com/fotos-vetores-gratis/pessoas-felizes-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme-Generetor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Meme-Generetor</h1>
+    </header>
+    <section id="sessao" class="sessao">
+        Texto: <input type="text" name="text2" id="text-input" maxlength="60">
+        <br />
+        Foto: <input type="file" name="arquivo" id="meme-insert" class="meme-insert"
+        accept="image/*">
+        <div id="meme-image-container" class="meme-image-container">
+            <div id="meme-text" class="meme-text"></div>
+            <img id="meme-image" class="meme-image"></img>
+        </div>
+        <p>Estilos custumizados:</p>
+        <button id="fire" class="fire">Fire</button>
+        <button id="water" class="water">Water</button>
+        <button id="earth" class="earth">Earth</button>
+        <p>Memes pré prontos</p>
+        <img src="./imgs/meme1.png" alt="imagem de amigos" id="meme-1" class="meme-1">
+        <img src="./imgs/meme2.png" alt="imagem de mulher feliz" id="meme-2" class="meme-2">
+        <img src="./imgs/meme3.png" alt="imagem de mulher" id="meme-3" class="meme-3">
+        <img src="./imgs/meme4.png" alt="imagem de amigos diversos" id="meme-4" class="meme-4">
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
