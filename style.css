@@ -1,15 +1,51 @@
-#meme-image-container{
-background-color: white;
-border: solid 3px;
+body{
+background-color: ghostwhite;
+
+}
+header{
+padding: 10px;
+margin: 40px;
+border: 2px;
 border-color: black;
-width: 400px;
-height:400px;
-padding: 0%;
-margin: auto;
+border-radius: 20%;
 }
 
-#meme-text{
-text-shadow: 5px black;
-font-size: 30px;
-color: white;
+.bottonImage{
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline-block;
+    box-shadow: 10px;
 }
+
+  #meme-image-container {
+    background-color: white;
+    border: 1px solid black;
+    z-index: 0;
+    width: 400px;
+    height: 400px;
+  }
+  
+  #meme-image {
+    z-index: 1;
+  }
+  
+  #meme-text {
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .textInput{
+margin-bottom: 20px;
+text-align: center;
+
+  }
+
+  .text {
+    border: 1px black;
+    border-radius: 20%;
+    text-align: center;
+    color: black;
+  }
