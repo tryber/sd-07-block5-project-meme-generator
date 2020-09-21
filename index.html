@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <div>
+        <div>
+            <label>TEXTO: </label>
+            <input type="text" id="text-input" size="20" maxlength="60">
+        </div>
+    </br>
+        <div>
+            <label>FOTO: </label>
+            <input type="file" accept="image/*" id="meme-insert">
+        </div>
+    </div>
+    <div>
+        <div id="meme-image-container" class="container-image">
+            <p class="meme-text" id="meme-text"></p>
+        <img class="meme-image" id="meme-image" width="200px" height="200px"/>
+        </div>
+        <div>
+            <p>Bordas Personalizadas:</p>
+            <button class="fire" id="fire">Borda 1</button>
+            <button class="water" id="water">Borda 2</button>
+            <button class="earth" id="earth">Borda 3</button>
+        </div>
+        <div>
+            <p>Memes pré prontos:</p>
+            <img src="imgs/meme1.png" alt="" class="meme" id="meme-1">
+            <img src="imgs/meme2.png" alt="" class="meme" id="meme-2">
+            <img src="imgs/meme3.png" alt="" class="meme" id="meme-3">
+            <img src="imgs/meme4.png" alt="" class="meme" id="meme-4">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
