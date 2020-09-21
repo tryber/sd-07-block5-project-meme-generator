@@ -1,0 +1,26 @@
+#meme-image-container {
+    border: 1px black solid;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /* margin: auto; */
+    /* align-items: center; */
+    /* text-align: center; */
+    overflow: hidden;
+}
+
+#meme-image {
+}
+
+#meme-text {
+    position: absolute;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#text-input {
+    padding: 0;
+}

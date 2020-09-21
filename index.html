@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="content-input">
+      <label for="text-input">Texto:</label>
+      <input maxlength="60" type="text" id="text-input" class="text-input" />
+      <br />
+      <label for="meme-insert">Foto:</label>
+      <input type="file" id="meme-insert" />
+    </section>
+
+    <section id="meme-image-container">
+      <p id="meme-text"></p>
+      <img src="" alt="foto do meme" id="meme-image"></img>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
