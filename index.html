@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeMes</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <section id="center">
+        <input id="text-input" type="text" oninput="ReceiveText()" maxlength = "60"/>
+        <input id="meme-insert" type="file" onchange="ReceiveImage()" />
+    </section>
+           <section id="meme-image-container">
+                <div id="text"><p id="meme-text"></p></div>
+                
+                <img id="meme-image">
+            </section> 
+    <script src="script.js"></script>
+</body>
+</html>
