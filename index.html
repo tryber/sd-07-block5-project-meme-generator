@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Título -->
+    <header id="cabecalho">
+      <h1 id="title">Meme Generator</h1>
+    </header>
+    <div id="memeGeneratorBlock">
+      <!-- Texto e foto -->
+      <div>
+        <label for="text-input">Texto</label>
+        <input
+          type="text"
+          id="text-input"
+          maxlength="60"
+          placeholder="Texto do seu meme!"
+        />
+      </div>
+      <div>
+        <label>Imagem: </label>
+        <input id="meme-insert" type="file" />
+      </div>
+      <div id="meme-image-container">
+        <img
+          id="meme-image"
+          src="http://lorempixel.com/500/500/"
+          alt="Imagem do seu meme!"
+        />
+        <div id="meme-text"></div>
+      </div>
+    </div>
+    <footer>Pedro Azevedo</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
