@@ -6,9 +6,7 @@ textInput.addEventListener('input', function () {
   
   const imageInsert = document.querySelector('meme-insert');
 
-
   imageInsert.addEventListener('input', function(){
-
 imageInsert.id = "meme-image"
 img.src = URL.createObjectURL(this.file[0]);
 
