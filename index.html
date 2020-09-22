@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>MEME GENERATOR</h1>
+    <span>Texto:</span>
+    <div>
+        <input type="text" maxlength="60" id="text-input"><br><br>
+    </div>
+    <span>Foto:</span>
+    <input type="file" accept="image/*" id="meme-insert" onchange="showImage(event)">
+    <section id="meme-image-container">
+        
+        <img id="meme-image" src="" alt="imagem">
+        <div id="meme-text"></div>
+    </section>
+    </div>
+    <div id="buttons">
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+    </div>
+
+    <div id="memes-adicionais">
+        <img src="imgs/meme1.png" id="meme-1" class="memes">
+        <img src="imgs/meme2.png" id="meme-2" class="memes">
+        <img src="imgs/meme3.png" id="meme-3" class="memes">
+        <img src="imgs/meme4.png" id="meme-4" class="memes">
+    </div>
+</body>
+<script src="script.js"></script>
+<script>
+    document.getElementById('fire').addEventListener("click", vermelho);
+    document.getElementById('water').addEventListener("click", azul);
+    document.getElementById('earth').addEventListener("click", verde);
+
+    document.getElementById('meme-1').addEventListener("click", mostraminiatura);
+    document.getElementById('meme-2').addEventListener("click", mostraminiatura);
+    document.getElementById('meme-3').addEventListener("click", mostraminiatura);
+    document.getElementById('meme-4').addEventListener("click", mostraminiatura);
+
+</script>
+
+</html>
