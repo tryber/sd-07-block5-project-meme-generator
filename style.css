@@ -1,0 +1,39 @@
+body{
+background-color: blanchedalmond;
+padding: 0%;
+}
+
+.cabecalho{
+text-align: center;
+box-shadow: 10px;
+text-shadow: 20px;
+border-radius: 10%;
+
+
+}
+.meme-text {
+    text-shadow: black 5px 5px 5px;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+  }
+  .meme-image-container {
+    border: 1px solid; 
+    border-color: black;
+    height: 400px;
+    width: 500px;
+    margin-bottom: 10px;
+    background: white;
+  }
+  .meme-image {
+    position: relative;
+    width: 500px;
+    height: 400px;
+  }
+
+  .meme-insert:hover{
+transition: 0.2s;
+color: aquamarine;
+text-decoration-color: antiquewhite;
+transition: ease-in;
+  }
