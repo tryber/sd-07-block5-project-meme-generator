@@ -1,0 +1,36 @@
+#meme-image-container{
+    border: 1px solid black;
+    background: white;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+#meme-image{
+    position: static;
+    width: 500px;
+    height: 500px;
+}
+
+#meme-text{
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+    color:white;
+    font-size: 30px
+    
+}
+
+#meme1{
+    width: 100px;
+}
+#meme2{
+    width: 100px;
+}
+#meme3{
+    width: 100px;
+}
+#meme4{
+    width: 100px;
+}
