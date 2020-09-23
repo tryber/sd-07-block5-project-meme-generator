@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script type="text/javascript" src="/script.js"></script>
 </head>
 <body>
     
+  <header class='header'>Meme Generator</header>
+  
+  <div class="input-section">
+    <input id="text-input" type="text" maxlength="60">
+    <input id="meme-insert" type="file" onchange="imageUploadURL(this);"/>
+  </div>
+  
+  <section>
+    <div id="meme-image-container" class='memeImageContainer'>
+       <img id="meme-image" class="memeImage" src="#" alt="">
+    </div>
+
+    <p id="meme-text"></p>
+  </section>
+
+
+
+  <section id="images">
+    <img id="meme-1" class="preview-images" src="/imgs/meme1.png" alt="">
+    <img id="meme-2" class="preview-images" src="/imgs/meme2.png" alt="">
+    <img id="meme-3" class="preview-images" src="/imgs/meme3.png" alt="">
+    <img id="meme-4" class="preview-images" src="/imgs/meme4.png" alt="">
+  </section>
+    
+
+
 </body>
 </html>
