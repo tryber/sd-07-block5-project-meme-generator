@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Generator of memes!</h1>    
+  </header>
+  
+  <h3>Selecione uma imagem para o meme:</h3>
+  <input type="text" id="text-input" maxlength="60"/>
+  <input type="file" id="meme-insert"
+  onchange="document.getElementById('meme-image')
+  .src = window.URL.createObjectURL(this.files[0])"> 
+  
+  <h3>Meme:</h3>
+  <div id="meme-image-container">
+    <img src="" alt="" id="meme-image" />  
+    <p id='meme-text'></p>
+  </div>
+
+  <div id="memes-prontos">
+    <ul>
+      <li id='meme-1'>
+        <img src="imgs/meme1.png" class="memes-images" alt="">
+      </li>
+      <li id='meme-2'>
+        <img src="imgs/meme2.png" class="memes-images"alt="">
+      </li>
+      <li id='meme-3'>
+        <img src="imgs/meme3.png" class="memes-images" alt="">
+      </li>
+      <li id='meme-4'>
+        <img src="imgs/meme4.png" class="memes-images" alt="">
+      </li>
+    </ul>
+  </div>
+  
+  <h3>Escolha uma das estilizações para sua moldura:</h3>
+  <button id="fire" class="btn">Fire</button>
+  <button id="water" class="btn">Water</button>
+  <button id="earth" class="btn">Earth</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>

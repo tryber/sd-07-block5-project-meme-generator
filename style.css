@@ -1,0 +1,81 @@
+#meme-image-container {
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+    width: 570px;
+    height: 570px;
+    display: inline-block;
+}
+
+#meme-image {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    margin: 10px;
+}
+
+#meme-text {
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  text-shadow: black 5px 5px 5px;
+  font-size: 30px;
+  color: white;
+}
+
+#memes-prontos {
+  display: inline-block;  
+}
+
+#memes-prontos li {
+  list-style: none;  
+}
+
+#memes-prontos li img{
+  width: 150px;  
+}
+
+/* #meme-1 {
+  background-image: url('imgs/meme1.png');
+}
+
+#meme-2 {
+  background-image: url('imgs/meme2.png');
+}
+
+#meme-3 {
+  background-image: url('imgs/meme3.png');
+}
+
+#meme-4 {
+  background-image: url('imgs/meme4.png');
+} */
+
+.btn {
+  margin: 5px 10px 10px 30px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px 0;
+  color: white;
+}
+
+.btn:hover {
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .5rem;
+}
+
+#fire {
+  background-color: red;
+  border: 3px dashed red;
+}
+
+#water {
+  background-color: blue;
+  border: 5px blue double;
+}
+
+#earth {
+  background-color: green;
+  border: 6px groove green;
+}
