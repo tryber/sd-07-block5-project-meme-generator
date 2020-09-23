@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Meme Gerator</title>
+    <link rel='stylesheet' href='style.css' >
+    
+</head>
+<body>
+  <div class='principal'>
+ 	<header>Meme Gerator</header>
+ 	
+     <section class= 'inputs' >   
+       
+       <div class="entrada"> 
+       <label for='texto'>Texto:<label>
+        <input type='text' placeholder='texto Aqui' id='text-input'maxlength="60"/>
+        </div>
+        <div>
+        <label for='arquivo'>Arquivo</label>
+        <input type='file'  id='meme-insert'accept='image/png, image/jpeg'/>
+        </div>  
+           
+     
+        <div class= 'meme-image-container default-border' id='meme-image-container'>
+          <span id='meme-text' class='meme-text'></span>
+          <img id='meme-image' class='meme-image' src="">
+        </div> 
+     
+          
+      <section class='botoes'>
+      <h2>Estilos customizaveis:</h2>
+      <button type='button' class='fire' id='fire' >
+      Fire
+      </button>
+      <button type='button' class='water' id='water'>
+      Water
+      </button>
+      <button type='button' class='earth' id='earth'>
+      Earth
+      </button>
+      </section>
+      
+      <section class='memesProntos'> 
+      <h2>Memes Prontos</h2>
+      <img id='meme-1' class='memeP' src="imgs/meme1.png" onclick="meme1()">
+      <img id='meme-2' class='memeP' src="imgs/meme2.png"onclick="meme2()">
+      <img id='meme-3' class='memeP' src="imgs/meme3.png"onclick="meme3()">
+      <img id='meme-4' class='memeP' src="imgs/meme4.png"onclick="meme4()">
+      </section>  
+    </section>      
+     
+    <footer></footer>
+ 	    
+  </div>
+ 
+  <script src='script.js'></script>
+</body>
+</html>
