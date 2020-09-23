@@ -1,0 +1,38 @@
+body {
+  background-color: thistle;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+.meme-image {
+  height: 300px;
+  width: 300px;
+}
+
+.meme-text {
+  bottom: 8px;
+  box-sizing: border-box;
+  color: white;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold , sans-serif;
+  font-size: 30px;
+  object-position: center;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+}
+
+.textBox {
+  display: inline-block;
+  text-align: center;
+}

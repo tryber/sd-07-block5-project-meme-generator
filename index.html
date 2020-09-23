@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+    <div class="textBox">
+        <form>
+            <label>Meme Text:</label>
+            <input type="text" id="text-input" maxlength="60"><br><br>
+            <input type="file" id="meme-insert" accept="image/*" onchange="loadImage(event)"><br><br>
+        </form>
+    </div>
+    <div id="meme-image-container" class="meme-image-container">
+        <p id="meme-text" class="meme-text">
+        </p>
+        <div>
+            <img id="meme-image" class="meme-image" src="output" alt="Meme Image">
+        </div>
+    </div>
+    <div class="buttons">
+        <input type="button" id="fire" class="fire" value="Borda 1">
+        <input type="button" id="water" class="water" value="Borda 2">
+        <input type="button" id="earth" class="earth" value="Borda 3">
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
