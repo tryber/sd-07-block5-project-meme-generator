@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=dev  ice-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+  <section>
+    <div id="options-div" class="options-div">
+      <div id="options">
+        <label>Texto: </label>
+        <input type="text" id="text-input" class="text-input" placeholder="Digite aqui" size="53" maxlength="60">
+        <br>
+        <label>Imagens pré-selecionadas: </label><br>
+        <img id="meme-1" src="./imgs/meme1.png" alt="The Office's Dwight with his usual face expression - rested face" width="150px">
+        <img id="meme-2" src="./imgs/meme2.png" alt="Jim Halpert (The Office) smiling through blinds" width="150px">
+        <img id="meme-3" src="./imgs/meme3.png" alt="Michael from the office in his this is the worst face" width="125">
+        <img id="meme-4" src="./imgs/meme4.png" alt="Young Michael Scott getting a handshake" width="109px">
+        <br>
+        <label>Faça upload de sua imagem </label>
+        <input type="file" name="upload" id="meme-insert">
+        <br>
+        <label>Estilo das bordas: </label>
+        <input type="button" value="Fire" id="fire" class="fire border-button">
+        <input type="button" value="Water" id="water" class="water border-button">
+        <input type="button" value="Earth" id="earth" class="earth border-button">
+      </div>
+    </div>
+    <br>
+    <div id="meme-image-container" class="meme-image-container">
+      <img id="meme-image" class="meme-image" src="" alt="">
+      <div id="meme-text" class="meme-text"></div>
+    </div>
+  </section>
+  <br>
+  <footer>&copy;Thays Costa | Trybe</footer>
+  <script src="script.js"></script>
+</body>
+</html>
