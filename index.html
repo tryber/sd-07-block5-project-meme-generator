@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME GENERATOR</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+    <style> 
+    body{
+        background-color: darkred;
+    }
+    form{
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+    .pre-images{
+        display: inline-flex;
+    }
+    .pre-images img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .pre-images img:hover {
+        opacity: 1;
+    }
+    .meme-images{
+        width: 500px;
+        height: 500px;
+        background-color:#f44336;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .meme-image { 
+        position: relative;
+        display: none;
+        width: 100%
+    }
+    #meme-text{
+        position: absolute; 
+        top: 500px; 
+        bottom: 20px;
+        left: 20px;
+        right: 100px; 
+        width: 100%; 
+        text-align: auto;
+        font-size: 30px;
+        text-shadow: #000 5px 5px 5px;
+        color: rgb(255, 255, 255);
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
+    <div class= "meme-image-container">
+        <form>
+            <!--INPUT texto-->
+            <label for = "text-input">Texto:</label>
+            <input type = "text" id="text-input" name="text-input" required="required" maxlength="60"><br><br>
+            <!--INPUT imagem-->
+            <label for = "meme-insert">Foto:</label>
+            <input type = "file" id="meme-insert" name="meme-insert" onchange="loadFile(event)">
+        </form>
+        <!--Resultado final-->
+        <div class= "meme-image-container">
+            <!--OUTPUT IMAGEM-->
+            <div class = "meme-images">
+                <span onclick="this.parentElement.style.display='none'"class="closebtn"></span>
+            
+                <img id = "meme-image" width="500" />
+            </div>
+            <!--OUTPUT texto-->
+            <div class = "meme-text-conteiner">   
+                <p id ="meme-text"></p>
+            </div>
+        </div>
+        <!--Imagens pre-defindas--> 
+        <div class ="pre-images"> 
+            <div class= "preimages-conteiner"><img id="meme-1" src="imgs/meme1.PNG" width="100" height="90" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-2" src="imgs/meme2.png" width="100" height="90" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-3" src="imgs/meme3.png" width="100" height="90" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-4" src="imgs/meme4.png" width="100" height="90" onclick="testeFunction(this);"/></div>
+        </div>
+    </div> 
+            
+    <script>
+            // OUTPUT imagem JS (FUNCIONA !!)
+        var loadFile= function(event) {
+            var image= document.getElementById('meme-image');
+            image.src= URL.createObjectURL(event.target.files[0]);
+        };
+        // Carrega o texto JS (FUNCIONA !!)
+        var inpuTeste= document.getElementById("text-input");
+            document.getElementById("text-input").addEventListener("input", function() {
+            document.getElementById("meme-text").innerHTML = inpuTeste.value;
+        });
+        // Carrega imagens predefinidas(FUNCIONA !!)
+        function testeFunction(imgs){
+            var expandImg = document.getElementById("meme-image");
+            expandImg.src = imgs.src;
+        };
+    </script>
+</body>
+</html> 
+
