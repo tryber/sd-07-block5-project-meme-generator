@@ -1,0 +1,198 @@
+header {
+  background-color: white;
+  box-shadow: 0 1px 30px rgba(69, 69, 69, 0.15);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.page-title {
+  color: rgb(84, 97, 108);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 20px 0 20px 46px;
+}
+
+.subtitle {
+  align-items: center;
+  color: rgb(69, 69, 69);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 96px 354px 32px;
+  padding-top: 16px;
+  text-align: center;
+  width: 657px;
+}
+
+.container-all {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
+  height: 448px;
+  margin: 0 180px 32px;
+  width: 1006px;
+}
+
+.meme-container {
+  height: 347px;
+  margin: 8px 48px 8px 49px;
+  width: 278px;
+}
+
+.meme-title {
+  align-items: center;
+  color: rgb(69, 69, 69);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin: auto;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.text-meme {
+  align-items: center;
+  bottom: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 278px;
+  word-wrap: break-word;
+}
+
+.meme-box {
+  background-color: white;
+  border: 1px solid black;
+  height: 291px;
+  left: 243px;
+  top: 317px;
+  width: 278px;
+}
+
+.image {
+  height: 291px;
+  width: 278px;
+}
+
+.button-container {
+  height: 64px;
+  width: 280px;
+}
+
+.buttons-title {
+  color: rgb(213, 213, 213);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  height: 24px;
+  line-height: 24px;
+  margin: 8px 80px 8px 81px;
+  width: 108px;
+}
+
+.buttons {
+  height: 30px;
+  margin: 0;
+  width: 100%;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  height: 30px;
+  margin: 0 10px;
+  padding: 0 8px;
+  width: 68.36px;
+}
+
+.button:focus{
+  outline-color: rgb(134, 146, 255);
+}
+
+.red{
+  background: red;
+}
+
+.blue{
+  background: blue;
+}
+
+.brown{
+  background: brown;
+}
+
+.division {
+  background: rgb(229, 229, 229);
+  border-radius: 5px;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
+  height: 380px;
+  left: 553px;
+  position: absolute;
+  top: 269px;
+  width: 1px;
+}
+
+.input-box {
+  height: 240px;
+  left: 582px;
+  position: absolute;
+  top: 309px;
+  width: 574px;
+}
+
+.img-input {
+  margin: 0 0 24px 266px;
+  width: 100px;
+}
+
+.input-text {
+  align-items: center;
+  background: white;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: rgb(229, 229, 229);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  height: 48px;
+  left: 582px;
+  letter-spacing: 0.1em;
+  line-height: 36px;
+  margin: 24px 0 0 24px;
+  text-align: center;
+  top: 501px;
+  width: 574px;
+}
+
+footer {
+  align-items: center;
+  color: rgba(0, 0, 0, 0.39);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: 18px;
+  left: 535px;
+  line-height: 18px;
+  margin-left: 535px;
+  top: 733px;
+  width: 296px;
+}

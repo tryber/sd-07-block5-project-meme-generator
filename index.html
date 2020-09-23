@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="page-title">MEME GENERATOR</h1>
+    </header>
+    <div id="introduction-text">
+      <h2 class="subtitle">
+        Faça upload de uma imagem e digite seu texto para gerar o meme
+      </h2>
+    </div>
+    <section id="container" Class="container-all">
+      <div id="meme" class="meme-container">
+        <h2 class="meme-title">MEME</h2>
+        <div id="meme-image-container" class="meme-box">
+          <img id="meme-image" class="image" src="" alt="Imagem do meme" />
+          <div id="meme-text" class="text-meme"></div>
+        </div>
+        <div class="button-container">
+          <h3 class="buttons-title">Estilos borda</h3>
+          <div class="buttons">
+            <button class="button red" id="fire">Fire</button>
+            <button class="button blue" id="water">Water</button>
+            <button class="button brown" id="earth">Earth</button>
+          </div>
+        </div>
+      </div>
+      <div class="division"></div>
+      <div id="input" class="input-box">
+        <img
+          class="img-input"
+          src="/imgs/postits.svg"
+          alt="Diversos post-its com desenhos de expressões variadas"
+        />
+        <input type="file" name="Upload" id="meme-insert" />
+        <input
+          id="text-input"
+          class="input-text"
+          type="text"
+          placeholder="Digite o texto do seu meme"
+          maxlength="60"
+        />
+      </div>
+    </section>
+    <footer>
+      <p>Todos os direitos reservados, Lucas Nonato de sá</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
