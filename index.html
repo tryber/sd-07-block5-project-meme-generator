@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+    <main>
+        <section class="section">
+            <label for="text-input"><em>Digite seu texto aqui:</em></label>
+            <br>
+            <input  id="text-input"
+                    type="text"
+                    placeholder="Digite seu texto aqui"
+                    class="input"
+                    maxlength="60">
+            <br>
+            <input type="file" accept="image/*" class="button" id="meme-insert">
+        </section>
+        <section class="section">
+            <div id="meme-image-container" class="container">
+                <img id="meme-image" class="background-image" src="imgs/meme1.png">
+                <p id="meme-text" class="text"></p>
+            </div>
+            <div class="mudar-bordas">
+                <p><em>Estilos Customizados:</em></p>
+                <button id="fire">Fire</button>
+                <button id="water">Water</button>
+                <button id="earth">Earth</button>
+            </div>
+        </section>
+        <section class="section">
+            <div class="imagens-auxiliares">
+                <p><em>Sugestão de Memes:</em></p>
+                <button id='meme-1'><img class="button_img" 
+                    title="BobEsponja" src="imgs/meme1.png "
+                    alt="BobEsponja"></button>
+                <button id="meme-2"><img class="button_img" 
+                    title="SeuMadruga" src="imgs/meme2.png"
+                    alt="SeuMadruga"></button>
+                <button id="meme-3"><img class="button_img" 
+                    title="Minion" src="imgs/meme3.png"
+                    alt="Minion"></button>
+                <button id="meme-4"><img class="button_img" 
+                    title="Simpsons" src="imgs/meme4.png"
+                    alt="Simpson"></button>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script type="text/javascript "src="script.js"></script>
+</body>
+</html>

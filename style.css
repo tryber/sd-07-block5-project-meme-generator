@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+header {
+  height: 100px;
+  background-color: dodgerblue;
+} 
+
+h1 {
+  line-height: 120px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+main {
+  padding: 0;  
+}
+
+.section {
+  display: block;
+  margin: 10px;
+  text-align: center;  
+}
+
+.input {
+  width: 290px;
+  height: 20px;
+}
+
+.button {
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 10px;
+  width: 300px;
+  height: 20px;
+  transition: 0.2s;
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.container {
+  align: block;
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 520px;
+  position: relative;
+  height: 300px;
+  width: 300px;  
+}
+
+.background-image {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  margin-top: -3px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 0;
+}
+
+#fire {
+  background-color: red;
+  border: 2px solid grey;
+  border-radius: 5%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+.box-fire {
+  border: 3px dashed red;
+}
+
+.box-water {
+  border: 5px double blue;
+}
+
+.box-earth {
+  border: 6px groove green;
+}
+
+#water {  
+  background-color: blue;
+  border: 2px solid gray;
+  border-radius: 5%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+#earth {  
+  background-color: green;
+  border: 2px solid grey;
+  border-radius: 5%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+.mudar-bordas {
+  text-align: center;
+}
+
+.imagens-auxiliares {
+  display: inline-block;
+  text-align: center;
+}
+
+.button_img {
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 75px;
+  overflow: hidden;
+  padding: 1px;
+  text-align: center;
+  width: 75px;
+}
+
