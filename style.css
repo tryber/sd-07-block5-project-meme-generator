@@ -1,0 +1,246 @@
+body {
+  font-family: Titillium Web, sans-serif;
+}
+
+h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.input {
+  left: 50%;
+  margin-left: -250px;
+  position: relative;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  color: rgb(175 , 175 , 175);
+  display: inline-block;
+  font-weight: 600;
+  height: 400px;
+  left: 50%;
+  margin-top: 15px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+.span-text {
+  margin-left: -62px;
+  margin-top: -13px;
+  position: absolute;
+  top: 50%;
+}
+
+.meme-image {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.meme-text {
+  bottom: 15px;
+  color: white;
+  font-size: 30px;
+  left: 50%;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.effects {
+  border-radius: 3px;
+  height: 405px;
+  left: 50%;
+  position: absolute;
+  top: 147px;
+  transform: translateX(-50%);
+  width: 502px;
+}
+
+.pls {
+  left: 50%;
+  margin-left: -250px;
+  position: relative;
+}
+
+.pls-h2 {
+  display: inline;
+}
+
+.pls p {
+  display: inline;
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+.btn {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  left: 50%;
+  margin-top: 15px;
+  position: relative;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+button {
+  border: 1px solid rgb(175 , 175 , 175);
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.25s ease-in-out;
+  width: 100px;
+}
+
+button:hover {
+  height: 55px;
+  width: 105px;
+}
+
+button:nth-child( 1 ) {
+  background-color: red;
+  margin-right: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+button:nth-child( 1 ):before {
+  background: url('gif/fire.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  height: 150px;
+  left: -10px;
+  opacity: 0;
+  position: absolute;
+  top: -35px;
+  transition: 0.25s ease-in-out;
+  width: 130px;
+}
+
+button:nth-child( 2 ) {
+  background-color: blue;
+  margin: 0 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+button:nth-child( 2 ):before {
+  background: url('gif/water.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  height: 75px;
+  left: -5px;
+  opacity: 0;
+  position: absolute;
+  top: -20px;
+  transition: 0.25s ease-in-out;
+  width: 115px;
+}
+
+button:nth-child( 3 ) {
+  background-color: green;
+  margin-left: 15px;
+  margin-right: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+button:nth-child( 3 ):before {
+  background: url('gif/earth.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  height: 75px;
+  left: -5px;
+  opacity: 0;
+  position: absolute;
+  top: -20px;
+  transition: 0.25s ease-in-out;
+  width: 115px;
+}
+
+button:nth-child( 4 ) {
+  margin-left: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+button:nth-child( 4 ):before {
+  background: url('gif/remove-kiss.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  height: 75px;
+  left: -5px;
+  opacity: 0;
+  position: absolute;
+  top: -20px;
+  transition: 0.5s ease-in-out;
+  width: 115px;
+}
+
+button:nth-child( 1 ):hover:before {
+  opacity: 1;
+}
+
+button:nth-child( 2 ):hover:before {
+  opacity: 1;
+}
+
+button:nth-child( 3 ):hover:before {
+  opacity: 1;
+}
+
+button:nth-child( 4 ):hover:before {
+  opacity: 1;
+}
+
+.memeTmplTitle {
+  left: 50%;
+  margin-bottom: 15px;
+  margin-left: -250px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.memeTemplate {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+.memeTemplate img {
+  border-radius: 5px;
+  cursor: pointer;
+  height: 70px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.25s ease-in-out;
+  width: 105px;
+}
+
+.memeTemplate img:hover {
+  box-shadow: 0 0 10px rgb(175 , 175 , 175);
+  height: 75px;
+  width: 110px;
+}

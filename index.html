@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meme Generator</title>
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <h1>Meme Generator</h1>
+	</header>
+	<div class="input">
+		<div>
+			<label for="text-input">Text:</label>
+  		<input type="text" id="text-input" placeholder="texto do meme" maxlength="60">
+		</div>
+		<div>
+			<label for="meme-insert">Foto:</label>
+			<input type="file"  id="meme-insert" accept="image/">
+		</div>
+	</div>
+	<div id="meme-image-container" class="meme-image-container">
+		<img id="meme-image" class="meme-image" src=""  alt="imagem do meme">
+		<span class="span-text">Image Preview</span>
+		<div id="meme-text" class="meme-text"></div>
+	</div>
+	<div id="effects" class="effects"></div>
+	<div class="pls">
+		<h2 class="pls-h2" >Estilos personalizados</h2>
+		<p>(please hover me &#128584;)</p>
+	</div>
+	<div class="btn">
+		<button type="button" id='fire' class="fire">fire</button>
+		<button type="button" id='water' class="water">water</button>
+		<button type="button" id='earth' class="earth">earth</button>
+		<button type="button" id='remove-btn' class="remove">remove</button>
+	</div>
+	<div class="memeTmplTitle">
+		<h2>Meme Templates</h2>
+	</div>
+	<div class="memeTemplate">
+		<img src="imgs/meme1.png" alt="" id="meme-1">
+		<img src="imgs/meme2.png" alt="" id="meme-2">
+		<img src="imgs/meme3.png" alt="" id="meme-3">
+		<img src="imgs/meme4.png" alt="" id="meme-4">
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
