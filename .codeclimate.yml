@@ -34,6 +34,11 @@ exclude_patterns:
   - "**/libs/*.js"
   - "**/*.{gif,png,jpeg,jpg}"
   - "node_modules/"
+  - "cypress/"
+  - "cypress.json"
+  - "package-lock.json"
+  - "package.json"
+  - "reporter.json"
 plugins:
   csslint:
     enabled: true
