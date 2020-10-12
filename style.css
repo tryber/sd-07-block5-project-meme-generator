@@ -1,0 +1,78 @@
+/* Requisito 3:
+largura: 380 px | altura: 400 px */
+
+.container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  position: relative; /* posiciona o elemento em relação a si mesmo */
+  width: 380px;
+}
+
+/* Requisito 4: */
+.container img {
+  height: 400px;
+  position: relative;
+  width: 380px;
+}
+
+.container p {
+  color: white;
+  font-size: 30px;
+  height: 90px;
+  margin-left: 40px;
+  position: absolute; /* utiliza o ponto superior esquerdo de outros elementos */
+  text-align: center;
+  text-shadow: 5px 5px 5px black; /* h-shadow v-shadow blur-radius color */
+  top: 250px;
+  width: 300px;
+  word-wrap: break-word; /* quebra de linha */
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.container-two button {
+  color: white;
+  display: inline-block;
+  height: 25px;
+  margin: 8px;
+  width: 100px;
+}
+
+.container-three div {
+  border: 1px solid black;
+  display: inline-block; /* deixar na mesma linha, com largura e altura definida */
+  height: 100px;
+  margin: 4px;
+  width: 80px;
+}
+
+.meme-1 {
+  background-image: url('./imgs/meme1.png');
+  background-size: cover; /* ajusta a imagem dentro da caixa */
+}
+
+.meme-2 {
+  background-image: url('./imgs/meme2.png');
+  background-size: cover;
+}
+
+.meme-3 {
+  background-image: url('./imgs/meme3.png');
+  background-size: cover;
+}
+
+.meme-4 {
+  background-image: url('./imgs/meme4.png');
+  background-size: cover;
+}

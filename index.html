@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Meme Generator</h1>
+
+  <!--Requisitos 1 e 5:-->
+
+  <div>Add text:
+    <input id='text-input' maxlength='60' type='text' placeholder='Maximum is 60 characters'>
+  </div>
+  <br>
+
+  <!--Requisito 2:-->
+
+  <input id='meme-insert' type='file' accept='image/*' onchange='loadFile(event)' style='display:none;'>
+  <button>
+    <label for='meme-insert'>Upload image</label>
+  </button>
+  <br><br>
+
+  <div class='container' id='meme-image-container'>
+    <img id='meme-image' src='' alt='Meme image'>
+    <p id='meme-text'></p>
+  </div>
+
+  <!--Requisito 6:-->
+  <p>Custom:</p>
+  <div class='container-two'>
+    <button class='fire' id='fire'>Fire</button>
+    <button class='water' id='water'>Water</button>
+    <button class='earth' id='earth'>Earth</button>
+  </div>
+
+  <!--Requisito 7:-->
+  <p>Choose a Template:</p>
+    <div class='container-three'>
+      <div class='meme-1' id='meme-1'></div>
+      <div class='meme-2' id='meme-2'></div>
+      <div class='meme-3' id='meme-3'></div>
+      <div class='meme-4' id='meme-4'></div>
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
