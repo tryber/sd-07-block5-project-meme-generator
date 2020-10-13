@@ -1,0 +1,41 @@
+/* Geziel */
+.meme-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  position: relative;
+  width: 500px;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
+}
+
+.meme-image {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.buttons button {
+  color: red;
+  display: inline-block;
+  margin: 10px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
