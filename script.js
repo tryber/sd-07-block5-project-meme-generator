@@ -6,7 +6,7 @@ const memeContainer = document.querySelector('#meme-image-container');
 const fireButton = document.querySelector('#fire');
 const waterButton = document.querySelector('#water');
 const earthButton = document.querySelector('#earth');
-const startMemes = document.querySelectorAll('section')[3];
+const starterMemes = document.querySelectorAll('section')[3];
 
 textInput.addEventListener('input', function(event){
     memeText.innerText = event.target.value;
