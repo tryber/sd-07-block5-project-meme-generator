@@ -4,36 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
-    <script type="text/javascript" src="/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <h1>Meme generator</h1>
+
+    <section>
+      <!--HTML <label> for Attribute.  The "for" attribute specifies which form element a label is bound to-->
+      <!--O atributo "for" especifica a qual elemento do formulario um rotulo esta vinculado-->  
+      <!--w3schools.com/tags/att_label_for.asp-->
+        <label for="text-input">Texto</label>
+        <input type="text" name="text-input" id="text-input" maxlength="60">
     
-  <header class='header'>Meme Generator</header>
+        <label for="meme-insert">Foto</label>
+        <input type="file" name="meme-insert" id="meme-insert">
+    </section>
+
+    <section id="meme-image-container" class="container"> 
+      <div id="meme-text"></div>
+      <img id="meme-image" src="" alt="">
+    </section>
+
   
-  <div class="input-section">
-    <input id="text-input" type="text" maxlength="60">
-    <input id="meme-insert" type="file" onchange="imageUploadURL(this);"/>
-  </div>
-  
-  <section>
-    <div id="meme-image-container" class='memeImageContainer'>
-       <img id="meme-image" class="memeImage" src="#" alt="">
-    </div>
-
-    <p id="meme-text"></p>
-  </section>
-
-
-
-  <section id="images">
-    <img id="meme-1" class="preview-images" src="/imgs/meme1.png" alt="">
-    <img id="meme-2" class="preview-images" src="/imgs/meme2.png" alt="">
-    <img id="meme-3" class="preview-images" src="/imgs/meme3.png" alt="">
-    <img id="meme-4" class="preview-images" src="/imgs/meme4.png" alt="">
-  </section>
-    
-//teste
-
 </body>
 </html>
