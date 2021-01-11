@@ -1,0 +1,45 @@
+.container {
+  background-color: white;
+  border: 1px solid black;
+  height: 350px;
+  position: relative;
+  width: 500px;
+}
+
+.meme-text {
+  bottom: 10px;
+  color: white;
+  font-size: 30px;
+  max-height: 340px;
+  max-width: 480px;
+  padding-left: 10px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+}
+
+
+
+.meme-image {
+  height: 350px;
+  width: 500px;
+}
+
+button {
+  height: 30px;
+  width: 165px;
+}
+
+.fire {
+  background-color: red;
+  border: 3px dashed red;
+}
+
+.water {
+  background-color: blue;
+  border: 5px double blue;
+}
+
+.earth {
+  background-color: green;
+  border: 6px groove green;
+}
